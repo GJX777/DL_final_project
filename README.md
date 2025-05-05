@@ -14,4 +14,5 @@ numpy                     1.26.0
 pandas                    2.0.3         
 scipy                     1.13.1        
 torch                     2.6.0         
+scikit-learn              1.6.1
 </pre>

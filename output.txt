@@ -1,0 +1,1805 @@
+Using device: cuda
+Train data size: torch.Size([21910, 40, 30, 30])
+Test data size: torch.Size([2435, 40, 30, 30])
+Epoch [1/300], Beta: 0.01, PW: 0.20, DRW: 0.50
+Train Loss: 244672.6797, CVAE: 158574.2170, KLD: 18054.2017
+Pred Loss: 30119.9887, Direct: 159787.8471
+R^2(train-CVAE): -0.1108, R^2(train-Pred): -0.3376
+R^2(test-CVAE): 0.1577, R^2(test-Pred): 0.1502
+LR: 0.000800
+Epoch [2/300], Beta: 0.02, PW: 0.24, DRW: 0.55
+Train Loss: 152662.5916, CVAE: 86951.3923, KLD: 20047.7350
+Pred Loss: 25259.0979, Direct: 107723.7522
+R^2(train-CVAE): 0.6397, R^2(train-Pred): 0.4116
+R^2(test-CVAE): 0.5474, R^2(test-Pred): 0.2973
+LR: 0.000800
+Epoch [3/300], Beta: 0.02, PW: 0.29, DRW: 0.60
+Train Loss: 117511.8987, CVAE: 52572.7413, KLD: 19066.5586
+Pred Loss: 30428.1645, Direct: 93007.6286
+R^2(train-CVAE): 0.3254, R^2(train-Pred): -0.2674
+R^2(test-CVAE): 0.6637, R^2(test-Pred): 0.3498
+LR: 0.000800
+Epoch [4/300], Beta: 0.03, PW: 0.33, DRW: 0.65
+Train Loss: 104580.9193, CVAE: 39888.5969, KLD: 16028.7608
+Pred Loss: 25385.6136, Direct: 85962.8975
+R^2(train-CVAE): 0.4282, R^2(train-Pred): -0.0667
+R^2(test-CVAE): 0.7335, R^2(test-Pred): 0.3892
+LR: 0.000800
+Epoch [5/300], Beta: 0.03, PW: 0.37, DRW: 0.70
+Train Loss: 95593.2704, CVAE: 31966.1523, KLD: 13808.3187
+Pred Loss: 20996.5815, Direct: 79042.7987
+R^2(train-CVAE): 0.7464, R^2(train-Pred): 0.4314
+R^2(test-CVAE): 0.7898, R^2(test-Pred): 0.4170
+LR: 0.000800
+Epoch [6/300], Beta: 0.04, PW: 0.42, DRW: 0.75
+Train Loss: 88363.3601, CVAE: 25943.7693, KLD: 12382.6960
+Pred Loss: 17971.0750, Direct: 72598.2902
+R^2(train-CVAE): 0.8457, R^2(train-Pred): 0.5857
+R^2(test-CVAE): 0.8170, R^2(test-Pred): 0.4485
+LR: 0.000800
+Epoch [7/300], Beta: 0.04, PW: 0.46, DRW: 0.80
+Train Loss: 85587.3685, CVAE: 23031.5832, KLD: 11611.0056
+Pred Loss: 16414.5288, Direct: 68106.1604
+R^2(train-CVAE): 0.8532, R^2(train-Pred): 0.6510
+R^2(test-CVAE): 0.8333, R^2(test-Pred): 0.4767
+LR: 0.000800
+Epoch [8/300], Beta: 0.05, PW: 0.50, DRW: 0.85
+Train Loss: 81784.0969, CVAE: 20559.1497, KLD: 10584.7384
+Pred Loss: 14410.8604, Direct: 62865.7551
+R^2(train-CVAE): 0.8314, R^2(train-Pred): 0.4240
+R^2(test-CVAE): 0.8459, R^2(test-Pred): 0.5042
+LR: 0.000800
+Epoch [9/300], Beta: 0.06, PW: 0.55, DRW: 0.90
+Train Loss: 80311.5064, CVAE: 19317.9242, KLD: 9941.3142
+Pred Loss: 13070.2673, Direct: 59208.6816
+R^2(train-CVAE): 0.8241, R^2(train-Pred): 0.4850
+R^2(test-CVAE): 0.8620, R^2(test-Pred): 0.4978
+LR: 0.000800
+Epoch [10/300], Beta: 0.06, PW: 0.59, DRW: 0.95
+Train Loss: 80667.3576, CVAE: 18648.4401, KLD: 9575.3629
+Pred Loss: 12518.6391, Direct: 56881.4043
+R^2(train-CVAE): 0.8879, R^2(train-Pred): 0.6446
+R^2(test-CVAE): 0.8563, R^2(test-Pred): 0.5508
+LR: 0.000800
+Epoch [11/300], Beta: 0.07, PW: 0.63, DRW: 1.00
+Train Loss: 78580.8354, CVAE: 17221.9929, KLD: 8917.1839
+Pred Loss: 11252.4122, Direct: 53625.9461
+R^2(train-CVAE): 0.6867, R^2(train-Pred): 0.3217
+R^2(test-CVAE): 0.8646, R^2(test-Pred): 0.5551
+LR: 0.000800
+Epoch [12/300], Beta: 0.07, PW: 0.68, DRW: 1.05
+Train Loss: 78504.7099, CVAE: 16629.1259, KLD: 8548.3207
+Pred Loss: 10544.2154, Direct: 51533.1441
+R^2(train-CVAE): 0.8752, R^2(train-Pred): 0.6942
+R^2(test-CVAE): 0.8705, R^2(test-Pred): 0.5742
+LR: 0.000800
+Epoch [13/300], Beta: 0.08, PW: 0.72, DRW: 1.10
+Train Loss: 78030.1679, CVAE: 15937.4371, KLD: 8182.0560
+Pred Loss: 9918.8119, Direct: 49363.5394
+R^2(train-CVAE): 0.8618, R^2(train-Pred): 0.6464
+R^2(test-CVAE): 0.8726, R^2(test-Pred): 0.5855
+LR: 0.000800
+Epoch [14/300], Beta: 0.09, PW: 0.76, DRW: 1.15
+Train Loss: 77959.8792, CVAE: 15355.0839, KLD: 7850.3826
+Pred Loss: 9310.4488, Direct: 47675.9983
+R^2(train-CVAE): 0.8502, R^2(train-Pred): 0.5240
+R^2(test-CVAE): 0.8758, R^2(test-Pred): 0.5951
+LR: 0.000800
+Epoch [15/300], Beta: 0.09, PW: 0.81, DRW: 1.20
+Train Loss: 78858.0761, CVAE: 15145.5061, KLD: 7632.2091
+Pred Loss: 8922.1244, Direct: 46516.1085
+R^2(train-CVAE): 0.8436, R^2(train-Pred): 0.5943
+R^2(test-CVAE): 0.8816, R^2(test-Pred): 0.6124
+LR: 0.000800
+Epoch [16/300], Beta: 0.10, PW: 0.85, DRW: 1.25
+Train Loss: 78965.3702, CVAE: 14864.4545, KLD: 7349.2772
+Pred Loss: 8382.6650, Direct: 45010.2162
+R^2(train-CVAE): 0.8524, R^2(train-Pred): 0.6348
+R^2(test-CVAE): 0.8762, R^2(test-Pred): 0.6076
+LR: 0.000800
+Epoch [17/300], Beta: 0.10, PW: 0.89, DRW: 1.30
+Train Loss: 79144.8525, CVAE: 14409.1461, KLD: 7143.5083
+Pred Loss: 8052.4454, Direct: 43698.3367
+R^2(train-CVAE): 0.7882, R^2(train-Pred): 0.5765
+R^2(test-CVAE): 0.8644, R^2(test-Pred): 0.6317
+LR: 0.000800
+Epoch [18/300], Beta: 0.11, PW: 0.94, DRW: 1.35
+Train Loss: 81042.9770, CVAE: 14613.0597, KLD: 7047.4643
+Pred Loss: 7882.5796, Direct: 43171.2679
+R^2(train-CVAE): 0.8883, R^2(train-Pred): 0.7144
+R^2(test-CVAE): 0.8785, R^2(test-Pred): 0.6084
+LR: 0.000800
+Epoch [19/300], Beta: 0.11, PW: 0.98, DRW: 1.40
+Train Loss: 81467.9843, CVAE: 14417.4527, KLD: 6788.5345
+Pred Loss: 7466.1471, Direct: 42112.2144
+R^2(train-CVAE): 0.9028, R^2(train-Pred): 0.6969
+R^2(test-CVAE): 0.8851, R^2(test-Pred): 0.6082
+LR: 0.000800
+Epoch [20/300], Beta: 0.12, PW: 1.02, DRW: 1.45
+Train Loss: 81842.4096, CVAE: 14073.1757, KLD: 6655.2537
+Pred Loss: 7229.8634, Direct: 41083.2484
+R^2(train-CVAE): 0.7507, R^2(train-Pred): 0.6019
+R^2(test-CVAE): 0.8738, R^2(test-Pred): 0.6328
+LR: 0.000800
+Epoch [21/300], Beta: 0.13, PW: 1.07, DRW: 1.50
+Train Loss: 81838.8347, CVAE: 13820.8190, KLD: 6489.8991
+Pred Loss: 6932.0317, Direct: 39870.7474
+R^2(train-CVAE): 0.9185, R^2(train-Pred): 0.7215
+R^2(test-CVAE): 0.8849, R^2(test-Pred): 0.6282
+LR: 0.000800
+Epoch [22/300], Beta: 0.13, PW: 1.11, DRW: 1.55
+Train Loss: 82231.7074, CVAE: 13642.4091, KLD: 6328.2463
+Pred Loss: 6653.3055, Direct: 38948.4311
+R^2(train-CVAE): 0.8249, R^2(train-Pred): 0.6322
+R^2(test-CVAE): 0.8856, R^2(test-Pred): 0.6348
+LR: 0.000800
+Epoch [23/300], Beta: 0.14, PW: 1.15, DRW: 1.60
+Train Loss: 83296.9216, CVAE: 13619.8126, KLD: 6211.3989
+Pred Loss: 6484.1908, Direct: 38339.9915
+R^2(train-CVAE): 0.8739, R^2(train-Pred): 0.6656
+R^2(test-CVAE): 0.8751, R^2(test-Pred): 0.6434
+LR: 0.000800
+Epoch [24/300], Beta: 0.14, PW: 1.20, DRW: 1.65
+Train Loss: 84857.3525, CVAE: 13748.8027, KLD: 6079.8288
+Pred Loss: 6262.6352, Direct: 38025.7066
+R^2(train-CVAE): 0.9027, R^2(train-Pred): 0.6684
+R^2(test-CVAE): 0.8934, R^2(test-Pred): 0.6278
+LR: 0.000800
+Epoch [25/300], Beta: 0.15, PW: 1.24, DRW: 1.70
+Train Loss: 84768.7494, CVAE: 13466.3098, KLD: 5984.5657
+Pred Loss: 6116.2653, Direct: 36956.1010
+R^2(train-CVAE): 0.7480, R^2(train-Pred): 0.6142
+R^2(test-CVAE): 0.8811, R^2(test-Pred): 0.6574
+LR: 0.000800
+Epoch [26/300], Beta: 0.15, PW: 1.28, DRW: 1.75
+Train Loss: 85123.4181, CVAE: 13134.8050, KLD: 5847.6742
+Pred Loss: 5892.6908, Direct: 36297.1073
+R^2(train-CVAE): 0.8959, R^2(train-Pred): 0.7321
+R^2(test-CVAE): 0.8772, R^2(test-Pred): 0.6726
+LR: 0.000800
+Epoch [27/300], Beta: 0.16, PW: 1.33, DRW: 1.80
+Train Loss: 85343.3159, CVAE: 12877.9172, KLD: 5766.2454
+Pred Loss: 5742.1083, Direct: 35511.2912
+R^2(train-CVAE): 0.9234, R^2(train-Pred): 0.7402
+R^2(test-CVAE): 0.8867, R^2(test-Pred): 0.6658
+LR: 0.000800
+Epoch [28/300], Beta: 0.17, PW: 1.37, DRW: 1.85
+Train Loss: 85721.4733, CVAE: 12887.6650, KLD: 5683.4235
+Pred Loss: 5582.3849, Direct: 34723.8279
+R^2(train-CVAE): 0.8823, R^2(train-Pred): 0.7559
+R^2(test-CVAE): 0.8885, R^2(test-Pred): 0.6716
+LR: 0.000800
+Epoch [29/300], Beta: 0.17, PW: 1.41, DRW: 1.90
+Train Loss: 86917.8734, CVAE: 12964.2089, KLD: 5588.9303
+Pred Loss: 5451.9620, Direct: 34360.3654
+R^2(train-CVAE): 0.7899, R^2(train-Pred): 0.5725
+R^2(test-CVAE): 0.8773, R^2(test-Pred): 0.6779
+LR: 0.000800
+Epoch [30/300], Beta: 0.18, PW: 1.46, DRW: 1.95
+Train Loss: 87936.6811, CVAE: 12897.1370, KLD: 5508.4126
+Pred Loss: 5360.1121, Direct: 33974.3828
+R^2(train-CVAE): 0.8677, R^2(train-Pred): 0.6930
+R^2(test-CVAE): 0.8906, R^2(test-Pred): 0.6761
+LR: 0.000800
+Epoch [31/300], Beta: 0.18, PW: 1.50, DRW: 2.00
+Train Loss: 89018.8705, CVAE: 12941.4060, KLD: 5414.5727
+Pred Loss: 5212.8975, Direct: 33630.9183
+R^2(train-CVAE): 0.9057, R^2(train-Pred): 0.7033
+R^2(test-CVAE): 0.8703, R^2(test-Pred): 0.6714
+LR: 0.000800
+Epoch [32/300], Beta: 0.19, PW: 1.50, DRW: 2.05
+Train Loss: 88448.4948, CVAE: 12672.9465, KLD: 5335.6558
+Pred Loss: 5066.9694, Direct: 32762.1410
+R^2(train-CVAE): 0.8784, R^2(train-Pred): 0.7524
+R^2(test-CVAE): 0.8959, R^2(test-Pred): 0.6779
+LR: 0.000800
+Epoch [33/300], Beta: 0.20, PW: 1.50, DRW: 2.10
+Train Loss: 89181.4585, CVAE: 12770.2485, KLD: 5263.5539
+Pred Loss: 4927.9147, Direct: 32376.0904
+R^2(train-CVAE): 0.8819, R^2(train-Pred): 0.6382
+R^2(test-CVAE): 0.8768, R^2(test-Pred): 0.6888
+LR: 0.000800
+Epoch [34/300], Beta: 0.20, PW: 1.50, DRW: 2.15
+Train Loss: 89161.5879, CVAE: 12548.5444, KLD: 5218.2234
+Pred Loss: 4861.6364, Direct: 31753.3189
+R^2(train-CVAE): 0.9193, R^2(train-Pred): 0.8261
+R^2(test-CVAE): 0.8857, R^2(test-Pred): 0.6896
+LR: 0.000800
+Epoch [35/300], Beta: 0.21, PW: 1.50, DRW: 2.20
+Train Loss: 90818.5012, CVAE: 12646.3541, KLD: 5154.0179
+Pred Loss: 4767.0180, Direct: 31797.1394
+R^2(train-CVAE): 0.8780, R^2(train-Pred): 0.6844
+R^2(test-CVAE): 0.8963, R^2(test-Pred): 0.6775
+LR: 0.000800
+Epoch [36/300], Beta: 0.21, PW: 1.50, DRW: 2.25
+Train Loss: 91289.9995, CVAE: 12608.0874, KLD: 5104.6373
+Pred Loss: 4713.5444, Direct: 31344.1368
+R^2(train-CVAE): 0.9225, R^2(train-Pred): 0.8332
+R^2(test-CVAE): 0.8870, R^2(test-Pred): 0.6910
+LR: 0.000800
+Epoch [37/300], Beta: 0.22, PW: 1.50, DRW: 2.30
+Train Loss: 90832.9213, CVAE: 12433.0994, KLD: 5035.1131
+Pred Loss: 4590.0230, Direct: 30614.3939
+R^2(train-CVAE): 0.6844, R^2(train-Pred): 0.5411
+R^2(test-CVAE): 0.8701, R^2(test-Pred): 0.7000
+LR: 0.000800
+Epoch [38/300], Beta: 0.22, PW: 1.50, DRW: 2.35
+Train Loss: 91514.3007, CVAE: 12395.5856, KLD: 4994.6662
+Pred Loss: 4509.4360, Direct: 30311.8135
+R^2(train-CVAE): 0.9100, R^2(train-Pred): 0.7579
+R^2(test-CVAE): 0.8971, R^2(test-Pred): 0.6870
+LR: 0.000800
+Epoch [39/300], Beta: 0.23, PW: 1.50, DRW: 2.40
+Train Loss: 91636.0391, CVAE: 12330.0663, KLD: 4917.3286
+Pred Loss: 4378.3347, Direct: 29835.6315
+R^2(train-CVAE): 0.8905, R^2(train-Pred): 0.7448
+R^2(test-CVAE): 0.8853, R^2(test-Pred): 0.6982
+LR: 0.000800
+Epoch [40/300], Beta: 0.24, PW: 1.50, DRW: 2.45
+Train Loss: 92970.0113, CVAE: 12349.1125, KLD: 4876.9546
+Pred Loss: 4334.4853, Direct: 29782.5440
+R^2(train-CVAE): 0.9089, R^2(train-Pred): 0.7992
+R^2(test-CVAE): 0.8737, R^2(test-Pred): 0.7056
+LR: 0.000800
+Epoch [41/300], Beta: 0.24, PW: 1.50, DRW: 2.50
+Train Loss: 93657.0275, CVAE: 12430.3554, KLD: 4834.9840
+Pred Loss: 4300.3278, Direct: 29442.4457
+R^2(train-CVAE): 0.7499, R^2(train-Pred): 0.5824
+R^2(test-CVAE): 0.8863, R^2(test-Pred): 0.7048
+LR: 0.000800
+Epoch [42/300], Beta: 0.25, PW: 1.50, DRW: 2.50
+Train Loss: 91597.6307, CVAE: 12131.6479, KLD: 4764.5651
+Pred Loss: 4196.3211, Direct: 28796.3368
+R^2(train-CVAE): 0.8837, R^2(train-Pred): 0.7260
+R^2(test-CVAE): 0.8945, R^2(test-Pred): 0.6959
+LR: 0.000800
+Epoch [43/300], Beta: 0.25, PW: 1.50, DRW: 2.50
+Train Loss: 91017.2941, CVAE: 12214.0832, KLD: 4725.7521
+Pred Loss: 4097.2619, Direct: 28583.5468
+R^2(train-CVAE): 0.8623, R^2(train-Pred): 0.7202
+R^2(test-CVAE): 0.8888, R^2(test-Pred): 0.7046
+LR: 0.000800
+Epoch [44/300], Beta: 0.26, PW: 1.50, DRW: 2.50
+Train Loss: 89811.2219, CVAE: 12209.8752, KLD: 4673.4210
+Pred Loss: 4031.3396, Direct: 28136.8205
+R^2(train-CVAE): 0.9094, R^2(train-Pred): 0.8263
+R^2(test-CVAE): 0.8986, R^2(test-Pred): 0.7128
+LR: 0.000800
+Epoch [45/300], Beta: 0.27, PW: 1.50, DRW: 2.50
+Train Loss: 89068.8061, CVAE: 12076.7544, KLD: 4630.1095
+Pred Loss: 3976.0292, Direct: 27920.0413
+R^2(train-CVAE): 0.8973, R^2(train-Pred): 0.7573
+R^2(test-CVAE): 0.8890, R^2(test-Pred): 0.7051
+LR: 0.000800
+Epoch [46/300], Beta: 0.27, PW: 1.50, DRW: 2.50
+Train Loss: 88210.2179, CVAE: 12072.6933, KLD: 4576.5331
+Pred Loss: 3877.4508, Direct: 27632.4431
+R^2(train-CVAE): 0.8971, R^2(train-Pred): 0.7636
+R^2(test-CVAE): 0.8754, R^2(test-Pred): 0.7166
+LR: 0.000800
+Epoch [47/300], Beta: 0.28, PW: 1.50, DRW: 2.50
+Train Loss: 87201.0946, CVAE: 11985.7921, KLD: 4554.7360
+Pred Loss: 3821.4728, Direct: 27288.9368
+R^2(train-CVAE): 0.9089, R^2(train-Pred): 0.7635
+R^2(test-CVAE): 0.9026, R^2(test-Pred): 0.7146
+LR: 0.000800
+Epoch [48/300], Beta: 0.28, PW: 1.50, DRW: 2.50
+Train Loss: 87205.9544, CVAE: 12198.6558, KLD: 4533.3255
+Pred Loss: 3778.1079, Direct: 27223.6075
+R^2(train-CVAE): 0.8684, R^2(train-Pred): 0.7682
+R^2(test-CVAE): 0.8858, R^2(test-Pred): 0.7301
+LR: 0.000800
+Epoch [49/300], Beta: 0.29, PW: 1.50, DRW: 2.50
+Train Loss: 85980.3083, CVAE: 11838.4994, KLD: 4463.5960
+Pred Loss: 3695.1003, Direct: 26924.7429
+R^2(train-CVAE): 0.9050, R^2(train-Pred): 0.7877
+R^2(test-CVAE): 0.8751, R^2(test-Pred): 0.7208
+LR: 0.000800
+Epoch [50/300], Beta: 0.29, PW: 1.50, DRW: 2.50
+Train Loss: 84991.1268, CVAE: 11835.6632, KLD: 4424.7364
+Pred Loss: 3621.4301, Direct: 26568.6244
+R^2(train-CVAE): 0.9016, R^2(train-Pred): 0.7669
+R^2(test-CVAE): 0.8669, R^2(test-Pred): 0.7152
+LR: 0.000800
+Epoch [51/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 84562.3600, CVAE: 11772.8634, KLD: 4394.1723
+Pred Loss: 3561.6056, Direct: 26451.5347
+R^2(train-CVAE): 0.9162, R^2(train-Pred): 0.8286
+R^2(test-CVAE): 0.9008, R^2(test-Pred): 0.7253
+LR: 0.000800
+Epoch [52/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 84625.3083, CVAE: 11858.7527, KLD: 4392.3405
+Pred Loss: 3534.9264, Direct: 26458.5855
+R^2(train-CVAE): 0.8796, R^2(train-Pred): 0.7724
+R^2(test-CVAE): 0.8845, R^2(test-Pred): 0.7363
+LR: 0.000800
+Epoch [53/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 82864.6210, CVAE: 11697.5212, KLD: 4359.0157
+Pred Loss: 3475.3238, Direct: 25858.5637
+R^2(train-CVAE): 0.9083, R^2(train-Pred): 0.6817
+R^2(test-CVAE): 0.8941, R^2(test-Pred): 0.7172
+LR: 0.000800
+Epoch [54/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 82797.1753, CVAE: 11727.3109, KLD: 4347.3460
+Pred Loss: 3458.6235, Direct: 25831.0901
+R^2(train-CVAE): 0.9133, R^2(train-Pred): 0.8140
+R^2(test-CVAE): 0.8935, R^2(test-Pred): 0.7252
+LR: 0.000800
+Epoch [55/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 81737.0517, CVAE: 11618.0437, KLD: 4340.5270
+Pred Loss: 3402.1187, Direct: 25485.4687
+R^2(train-CVAE): 0.9167, R^2(train-Pred): 0.8075
+R^2(test-CVAE): 0.8880, R^2(test-Pred): 0.7350
+LR: 0.000800
+Epoch [56/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 81395.3777, CVAE: 11553.6173, KLD: 4335.6061
+Pred Loss: 3412.3611, Direct: 25369.0147
+R^2(train-CVAE): 0.9008, R^2(train-Pred): 0.8018
+R^2(test-CVAE): 0.8878, R^2(test-Pred): 0.7240
+LR: 0.000800
+Epoch [57/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 81629.7224, CVAE: 11702.1581, KLD: 4329.8734
+Pred Loss: 3378.2709, Direct: 25424.4783
+R^2(train-CVAE): 0.8996, R^2(train-Pred): 0.7282
+R^2(test-CVAE): 0.8813, R^2(test-Pred): 0.7224
+LR: 0.000800
+Epoch [58/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 80545.9794, CVAE: 11530.6928, KLD: 4304.7289
+Pred Loss: 3352.5749, Direct: 25078.0022
+R^2(train-CVAE): 0.9051, R^2(train-Pred): 0.8275
+R^2(test-CVAE): 0.8938, R^2(test-Pred): 0.7265
+LR: 0.000800
+Epoch [59/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 79655.9791, CVAE: 11439.5111, KLD: 4298.8970
+Pred Loss: 3301.1521, Direct: 24790.0284
+R^2(train-CVAE): 0.8963, R^2(train-Pred): 0.8155
+R^2(test-CVAE): 0.8911, R^2(test-Pred): 0.7406
+LR: 0.000800
+Epoch [60/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 79522.5877, CVAE: 11466.4746, KLD: 4286.5444
+Pred Loss: 3278.9479, Direct: 24740.6913
+R^2(train-CVAE): 0.8799, R^2(train-Pred): 0.7751
+R^2(test-CVAE): 0.8975, R^2(test-Pred): 0.7352
+LR: 0.000800
+Epoch [61/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 79577.6845, CVAE: 11432.2036, KLD: 4281.2843
+Pred Loss: 3278.5572, Direct: 24777.3042
+R^2(train-CVAE): 0.7677, R^2(train-Pred): 0.6730
+R^2(test-CVAE): 0.8996, R^2(test-Pred): 0.7216
+LR: 0.000800
+Epoch [62/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 78870.2394, CVAE: 11452.5297, KLD: 4288.1794
+Pred Loss: 3254.9497, Direct: 24499.5326
+R^2(train-CVAE): 0.9083, R^2(train-Pred): 0.7667
+R^2(test-CVAE): 0.8629, R^2(test-Pred): 0.7397
+LR: 0.000800
+Epoch [63/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 77978.0394, CVAE: 11338.0667, KLD: 4272.1234
+Pred Loss: 3233.9545, Direct: 24202.9615
+R^2(train-CVAE): 0.8734, R^2(train-Pred): 0.7749
+R^2(test-CVAE): 0.9043, R^2(test-Pred): 0.7304
+LR: 0.000800
+Epoch [64/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 77833.6885, CVAE: 11359.7950, KLD: 4244.1488
+Pred Loss: 3174.7760, Direct: 24175.3940
+R^2(train-CVAE): 0.9223, R^2(train-Pred): 0.8582
+R^2(test-CVAE): 0.8874, R^2(test-Pred): 0.7397
+LR: 0.000800
+Epoch [65/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 77273.5867, CVAE: 11291.8771, KLD: 4240.7947
+Pred Loss: 3155.1224, Direct: 23990.7150
+R^2(train-CVAE): 0.9006, R^2(train-Pred): 0.8049
+R^2(test-CVAE): 0.8898, R^2(test-Pred): 0.7240
+LR: 0.000800
+Epoch [66/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 77373.8392, CVAE: 11247.9062, KLD: 4255.2471
+Pred Loss: 3165.4709, Direct: 24040.4609
+R^2(train-CVAE): 0.9006, R^2(train-Pred): 0.8170
+R^2(test-CVAE): 0.8929, R^2(test-Pred): 0.7325
+LR: 0.000800
+Epoch [67/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 76928.6752, CVAE: 11243.9256, KLD: 4237.6484
+Pred Loss: 3139.0614, Direct: 23881.9452
+R^2(train-CVAE): 0.9119, R^2(train-Pred): 0.8126
+R^2(test-CVAE): 0.8952, R^2(test-Pred): 0.7362
+LR: 0.000800
+Epoch [68/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 75718.5320, CVAE: 11122.6612, KLD: 4221.8400
+Pred Loss: 3106.2876, Direct: 23467.9549
+R^2(train-CVAE): 0.8910, R^2(train-Pred): 0.8392
+R^2(test-CVAE): 0.8767, R^2(test-Pred): 0.7400
+LR: 0.000800
+Epoch [69/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 76346.5187, CVAE: 11214.0592, KLD: 4220.5094
+Pred Loss: 3098.5014, Direct: 23687.4219
+R^2(train-CVAE): 0.9080, R^2(train-Pred): 0.8188
+R^2(test-CVAE): 0.8862, R^2(test-Pred): 0.7459
+LR: 0.000800
+Epoch [70/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 76506.6285, CVAE: 11319.6705, KLD: 4217.2862
+Pred Loss: 3090.0436, Direct: 23714.6827
+R^2(train-CVAE): 0.8430, R^2(train-Pred): 0.7729
+R^2(test-CVAE): 0.8989, R^2(test-Pred): 0.7351
+LR: 0.000800
+Epoch [71/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 74545.0473, CVAE: 11055.1127, KLD: 4216.4305
+Pred Loss: 3074.1735, Direct: 23045.4981
+R^2(train-CVAE): 0.8999, R^2(train-Pred): 0.8217
+R^2(test-CVAE): 0.8859, R^2(test-Pred): 0.7428
+LR: 0.000800
+Epoch [72/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 75031.3623, CVAE: 11112.5017, KLD: 4228.6070
+Pred Loss: 3082.6028, Direct: 23210.5497
+R^2(train-CVAE): 0.9156, R^2(train-Pred): 0.8183
+R^2(test-CVAE): 0.9042, R^2(test-Pred): 0.7351
+LR: 0.000800
+Epoch [73/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 74717.4950, CVAE: 11019.5179, KLD: 4202.1461
+Pred Loss: 3062.6847, Direct: 23137.3225
+R^2(train-CVAE): 0.8469, R^2(train-Pred): 0.7686
+R^2(test-CVAE): 0.8972, R^2(test-Pred): 0.7477
+LR: 0.000800
+Epoch [74/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 74023.3454, CVAE: 10975.4043, KLD: 4190.7528
+Pred Loss: 3020.5789, Direct: 22903.9386
+R^2(train-CVAE): 0.9024, R^2(train-Pred): 0.8249
+R^2(test-CVAE): 0.8992, R^2(test-Pred): 0.7439
+LR: 0.000800
+Epoch [75/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 73824.6815, CVAE: 10896.9946, KLD: 4192.9255
+Pred Loss: 3023.3518, Direct: 22853.9126
+R^2(train-CVAE): 0.9188, R^2(train-Pred): 0.8350
+R^2(test-CVAE): 0.8917, R^2(test-Pred): 0.7525
+LR: 0.000800
+Epoch [76/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 73837.3490, CVAE: 11031.5621, KLD: 4212.9784
+Pred Loss: 3012.1824, Direct: 22809.4480
+R^2(train-CVAE): 0.9083, R^2(train-Pred): 0.8381
+R^2(test-CVAE): 0.9010, R^2(test-Pred): 0.7502
+LR: 0.000800
+Epoch [77/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 73281.9412, CVAE: 10996.1862, KLD: 4192.5874
+Pred Loss: 2988.9391, Direct: 22617.8280
+R^2(train-CVAE): 0.9004, R^2(train-Pred): 0.8086
+R^2(test-CVAE): 0.8890, R^2(test-Pred): 0.7314
+LR: 0.000800
+Epoch [78/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 73307.6525, CVAE: 11015.7328, KLD: 4193.4417
+Pred Loss: 2982.3178, Direct: 22624.1642
+R^2(train-CVAE): 0.9218, R^2(train-Pred): 0.8234
+R^2(test-CVAE): 0.9020, R^2(test-Pred): 0.7415
+LR: 0.000800
+Epoch [79/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 72714.9004, CVAE: 10852.4040, KLD: 4169.6367
+Pred Loss: 2933.1114, Direct: 22484.7752
+R^2(train-CVAE): 0.9093, R^2(train-Pred): 0.8358
+R^2(test-CVAE): 0.8996, R^2(test-Pred): 0.7323
+LR: 0.000800
+Epoch [80/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 72441.9541, CVAE: 10909.0037, KLD: 4187.6197
+Pred Loss: 2928.3171, Direct: 22353.6755
+R^2(train-CVAE): 0.8978, R^2(train-Pred): 0.7841
+R^2(test-CVAE): 0.8997, R^2(test-Pred): 0.7309
+LR: 0.000800
+Epoch [81/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 73192.8757, CVAE: 11014.7671, KLD: 4188.0681
+Pred Loss: 2948.2628, Direct: 22599.7175
+R^2(train-CVAE): 0.9336, R^2(train-Pred): 0.8528
+R^2(test-CVAE): 0.9053, R^2(test-Pred): 0.7399
+LR: 0.000800
+Epoch [82/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 71983.5609, CVAE: 10802.6240, KLD: 4170.9187
+Pred Loss: 2919.8931, Direct: 22219.9285
+R^2(train-CVAE): 0.8884, R^2(train-Pred): 0.8225
+R^2(test-CVAE): 0.9073, R^2(test-Pred): 0.7369
+LR: 0.000800
+Epoch [83/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 71235.4318, CVAE: 10760.1572, KLD: 4166.0002
+Pred Loss: 2914.0475, Direct: 21941.7613
+R^2(train-CVAE): 0.9022, R^2(train-Pred): 0.8425
+R^2(test-CVAE): 0.8857, R^2(test-Pred): 0.7513
+LR: 0.000800
+Epoch [84/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 71635.2452, CVAE: 10864.9553, KLD: 4160.1522
+Pred Loss: 2885.9739, Direct: 22077.3132
+R^2(train-CVAE): 0.6918, R^2(train-Pred): 0.5719
+R^2(test-CVAE): 0.9011, R^2(test-Pred): 0.7459
+LR: 0.000800
+Epoch [85/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 71597.9684, CVAE: 10891.4989, KLD: 4150.9749
+Pred Loss: 2889.0702, Direct: 22051.0286
+R^2(train-CVAE): 0.8968, R^2(train-Pred): 0.7787
+R^2(test-CVAE): 0.8879, R^2(test-Pred): 0.7471
+LR: 0.000800
+Epoch [86/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 71049.7753, CVAE: 10771.5479, KLD: 4153.4258
+Pred Loss: 2870.9463, Direct: 21890.3121
+R^2(train-CVAE): 0.9170, R^2(train-Pred): 0.8008
+R^2(test-CVAE): 0.9071, R^2(test-Pred): 0.7491
+LR: 0.000800
+Epoch [87/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 70305.1917, CVAE: 10711.1708, KLD: 4138.1371
+Pred Loss: 2852.8157, Direct: 21629.3424
+R^2(train-CVAE): 0.9194, R^2(train-Pred): 0.8550
+R^2(test-CVAE): 0.8949, R^2(test-Pred): 0.7560
+LR: 0.000800
+Epoch [88/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 69951.6875, CVAE: 10658.4018, KLD: 4158.2887
+Pred Loss: 2853.8569, Direct: 21506.0055
+R^2(train-CVAE): 0.8989, R^2(train-Pred): 0.8293
+R^2(test-CVAE): 0.8924, R^2(test-Pred): 0.7484
+LR: 0.000800
+Epoch [89/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 69749.1945, CVAE: 10671.2626, KLD: 4137.0321
+Pred Loss: 2821.2743, Direct: 21441.9644
+R^2(train-CVAE): 0.9239, R^2(train-Pred): 0.8647
+R^2(test-CVAE): 0.8900, R^2(test-Pred): 0.7500
+LR: 0.000800
+Epoch [90/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 69641.1104, CVAE: 10601.9135, KLD: 4143.7008
+Pred Loss: 2823.9856, Direct: 21424.0432
+R^2(train-CVAE): 0.8907, R^2(train-Pred): 0.7968
+R^2(test-CVAE): 0.9025, R^2(test-Pred): 0.7324
+LR: 0.000800
+Epoch [91/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 70325.9091, CVAE: 10693.4267, KLD: 4146.9748
+Pred Loss: 2837.6419, Direct: 21652.7709
+R^2(train-CVAE): 0.9143, R^2(train-Pred): 0.8814
+R^2(test-CVAE): 0.8847, R^2(test-Pred): 0.7622
+LR: 0.000800
+Epoch [92/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 70409.2099, CVAE: 10753.3668, KLD: 4138.6189
+Pred Loss: 2821.8329, Direct: 21672.6033
+R^2(train-CVAE): 0.9225, R^2(train-Pred): 0.8095
+R^2(test-CVAE): 0.8991, R^2(test-Pred): 0.7562
+LR: 0.000800
+Epoch [93/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 69584.0053, CVAE: 10751.5656, KLD: 4130.7902
+Pred Loss: 2796.9095, Direct: 21359.1353
+R^2(train-CVAE): 0.9104, R^2(train-Pred): 0.8334
+R^2(test-CVAE): 0.8986, R^2(test-Pred): 0.7613
+LR: 0.000800
+Epoch [94/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 68291.5147, CVAE: 10457.4012, KLD: 4120.8712
+Pred Loss: 2797.2428, Direct: 20960.7952
+R^2(train-CVAE): 0.9251, R^2(train-Pred): 0.8657
+R^2(test-CVAE): 0.9052, R^2(test-Pred): 0.7530
+LR: 0.000800
+Epoch [95/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 68719.1257, CVAE: 10483.5017, KLD: 4118.3065
+Pred Loss: 2766.1841, Direct: 21140.3424
+R^2(train-CVAE): 0.7841, R^2(train-Pred): 0.6219
+R^2(test-CVAE): 0.8924, R^2(test-Pred): 0.7630
+LR: 0.000800
+Epoch [96/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 68912.7546, CVAE: 10601.7079, KLD: 4118.4301
+Pred Loss: 2787.1152, Direct: 21157.9379
+R^2(train-CVAE): 0.9023, R^2(train-Pred): 0.8497
+R^2(test-CVAE): 0.8941, R^2(test-Pred): 0.7552
+LR: 0.000800
+Epoch [97/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 68535.1207, CVAE: 10571.7098, KLD: 4108.9981
+Pred Loss: 2757.2221, Direct: 21037.9515
+R^2(train-CVAE): 0.9064, R^2(train-Pred): 0.8645
+R^2(test-CVAE): 0.9003, R^2(test-Pred): 0.7375
+LR: 0.000800
+Epoch [98/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 68225.9061, CVAE: 10482.2286, KLD: 4129.8517
+Pred Loss: 2769.7664, Direct: 20940.0290
+R^2(train-CVAE): 0.8813, R^2(train-Pred): 0.7470
+R^2(test-CVAE): 0.9205, R^2(test-Pred): 0.7447
+LR: 0.000800
+Epoch [99/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 67780.6848, CVAE: 10479.9848, KLD: 4114.2104
+Pred Loss: 2742.6544, Direct: 20780.9821
+R^2(train-CVAE): 0.8961, R^2(train-Pred): 0.8228
+R^2(test-CVAE): 0.9028, R^2(test-Pred): 0.7501
+LR: 0.000800
+Epoch [100/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66975.0617, CVAE: 10372.6650, KLD: 4112.9578
+Pred Loss: 2734.9898, Direct: 20506.4098
+R^2(train-CVAE): 0.9300, R^2(train-Pred): 0.8973
+R^2(test-CVAE): 0.9053, R^2(test-Pred): 0.7635
+LR: 0.000800
+Epoch [101/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 67254.3849, CVAE: 10370.7245, KLD: 4104.3297
+Pred Loss: 2733.6173, Direct: 20620.7742
+R^2(train-CVAE): 0.9143, R^2(train-Pred): 0.8248
+R^2(test-CVAE): 0.8921, R^2(test-Pred): 0.7526
+LR: 0.000800
+Epoch [102/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66953.8956, CVAE: 10390.8821, KLD: 4098.9176
+Pred Loss: 2702.5410, Direct: 20511.8106
+R^2(train-CVAE): 0.9123, R^2(train-Pred): 0.8414
+R^2(test-CVAE): 0.9033, R^2(test-Pred): 0.7599
+LR: 0.000800
+Epoch [103/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66744.6730, CVAE: 10384.8069, KLD: 4092.2720
+Pred Loss: 2702.3652, Direct: 20431.4546
+R^2(train-CVAE): 0.9026, R^2(train-Pred): 0.8249
+R^2(test-CVAE): 0.9051, R^2(test-Pred): 0.7503
+LR: 0.000800
+Epoch [104/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 67284.5132, CVAE: 10432.6542, KLD: 4091.7183
+Pred Loss: 2692.2472, Direct: 20634.3891
+R^2(train-CVAE): 0.9179, R^2(train-Pred): 0.7847
+R^2(test-CVAE): 0.8832, R^2(test-Pred): 0.7514
+LR: 0.000800
+Epoch [105/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66716.2852, CVAE: 10399.8443, KLD: 4089.6562
+Pred Loss: 2672.5091, Direct: 20432.3120
+R^2(train-CVAE): 0.9184, R^2(train-Pred): 0.8513
+R^2(test-CVAE): 0.8925, R^2(test-Pred): 0.7501
+LR: 0.000800
+Epoch [106/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66203.0872, CVAE: 10298.3440, KLD: 4096.4040
+Pred Loss: 2678.3270, Direct: 20263.3325
+R^2(train-CVAE): 0.9321, R^2(train-Pred): 0.8671
+R^2(test-CVAE): 0.8936, R^2(test-Pred): 0.7630
+LR: 0.000800
+Epoch [107/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 65858.3324, CVAE: 10209.2911, KLD: 4091.7371
+Pred Loss: 2662.5429, Direct: 20171.0823
+R^2(train-CVAE): 0.9082, R^2(train-Pred): 0.8639
+R^2(test-CVAE): 0.9006, R^2(test-Pred): 0.7656
+LR: 0.000800
+Epoch [108/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66810.4156, CVAE: 10376.6358, KLD: 4114.2674
+Pred Loss: 2706.1035, Direct: 20456.1377
+R^2(train-CVAE): 0.8575, R^2(train-Pred): 0.6613
+R^2(test-CVAE): 0.8802, R^2(test-Pred): 0.7533
+LR: 0.000800
+Epoch [109/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66272.1039, CVAE: 10363.7409, KLD: 4092.8480
+Pred Loss: 2690.4679, Direct: 20257.9225
+R^2(train-CVAE): 0.9194, R^2(train-Pred): 0.8619
+R^2(test-CVAE): 0.8796, R^2(test-Pred): 0.7616
+LR: 0.000800
+Epoch [110/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 66275.6635, CVAE: 10316.9792, KLD: 4099.6845
+Pred Loss: 2680.3001, Direct: 20283.3314
+R^2(train-CVAE): 0.9422, R^2(train-Pred): 0.8672
+R^2(test-CVAE): 0.9110, R^2(test-Pred): 0.7542
+LR: 0.000800
+Epoch [111/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 65827.2864, CVAE: 10182.2456, KLD: 4090.5944
+Pred Loss: 2676.5018, Direct: 20161.2440
+R^2(train-CVAE): 0.9173, R^2(train-Pred): 0.8219
+R^2(test-CVAE): 0.9010, R^2(test-Pred): 0.7589
+LR: 0.000800
+Epoch [112/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 65830.9665, CVAE: 10226.2404, KLD: 4098.5602
+Pred Loss: 2655.2622, Direct: 20156.9059
+R^2(train-CVAE): 0.9189, R^2(train-Pred): 0.8434
+R^2(test-CVAE): 0.9053, R^2(test-Pred): 0.7644
+LR: 0.000800
+Epoch [113/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 65289.3216, CVAE: 10160.7883, KLD: 4084.5233
+Pred Loss: 2656.8628, Direct: 19967.1528
+R^2(train-CVAE): 0.9159, R^2(train-Pred): 0.8243
+R^2(test-CVAE): 0.8987, R^2(test-Pred): 0.7704
+LR: 0.000800
+Epoch [114/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64581.8650, CVAE: 10113.4068, KLD: 4089.8792
+Pred Loss: 2648.7426, Direct: 19707.3522
+R^2(train-CVAE): 0.9149, R^2(train-Pred): 0.7810
+R^2(test-CVAE): 0.9074, R^2(test-Pred): 0.7649
+LR: 0.000800
+Epoch [115/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64622.1590, CVAE: 10160.7084, KLD: 4072.4548
+Pred Loss: 2618.9377, Direct: 19724.5231
+R^2(train-CVAE): 0.9107, R^2(train-Pred): 0.8259
+R^2(test-CVAE): 0.9056, R^2(test-Pred): 0.7571
+LR: 0.000800
+Epoch [116/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64378.7365, CVAE: 10164.6106, KLD: 4087.5150
+Pred Loss: 2618.6564, Direct: 19623.9547
+R^2(train-CVAE): 0.9140, R^2(train-Pred): 0.8558
+R^2(test-CVAE): 0.8966, R^2(test-Pred): 0.7680
+LR: 0.000800
+Epoch [117/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64185.8034, CVAE: 10101.9923, KLD: 4091.4947
+Pred Loss: 2595.7084, Direct: 19585.1199
+R^2(train-CVAE): 0.9013, R^2(train-Pred): 0.8275
+R^2(test-CVAE): 0.8971, R^2(test-Pred): 0.7589
+LR: 0.000800
+Epoch [118/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64556.4117, CVAE: 10136.0262, KLD: 4072.6414
+Pred Loss: 2592.3469, Direct: 19724.0291
+R^2(train-CVAE): 0.9119, R^2(train-Pred): 0.8446
+R^2(test-CVAE): 0.9120, R^2(test-Pred): 0.7607
+LR: 0.000800
+Epoch [119/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64263.3714, CVAE: 10112.3862, KLD: 4074.1059
+Pred Loss: 2591.3845, Direct: 19616.6707
+R^2(train-CVAE): 0.8986, R^2(train-Pred): 0.8158
+R^2(test-CVAE): 0.8938, R^2(test-Pred): 0.7693
+LR: 0.000800
+Epoch [120/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63947.9885, CVAE: 10092.3849, KLD: 4071.7788
+Pred Loss: 2580.4510, Direct: 19505.3574
+R^2(train-CVAE): 0.8767, R^2(train-Pred): 0.7848
+R^2(test-CVAE): 0.9008, R^2(test-Pred): 0.7638
+LR: 0.000800
+Epoch [121/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64632.5672, CVAE: 10200.2202, KLD: 4077.7591
+Pred Loss: 2589.0367, Direct: 19730.1858
+R^2(train-CVAE): 0.9287, R^2(train-Pred): 0.8790
+R^2(test-CVAE): 0.8932, R^2(test-Pred): 0.7678
+LR: 0.000800
+Epoch [122/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 64334.2393, CVAE: 10172.5161, KLD: 4064.2519
+Pred Loss: 2574.0162, Direct: 19632.5694
+R^2(train-CVAE): 0.9380, R^2(train-Pred): 0.8828
+R^2(test-CVAE): 0.9072, R^2(test-Pred): 0.7628
+LR: 0.000800
+Epoch [123/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63620.6390, CVAE: 10097.4451, KLD: 4068.5682
+Pred Loss: 2569.0658, Direct: 19379.6098
+R^2(train-CVAE): 0.9093, R^2(train-Pred): 0.7951
+R^2(test-CVAE): 0.8957, R^2(test-Pred): 0.7659
+LR: 0.000800
+Epoch [124/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63203.0042, CVAE: 10000.0348, KLD: 4064.4735
+Pred Loss: 2572.9392, Direct: 19249.6873
+R^2(train-CVAE): 0.9136, R^2(train-Pred): 0.8472
+R^2(test-CVAE): 0.8974, R^2(test-Pred): 0.7697
+LR: 0.000800
+Epoch [125/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63295.1228, CVAE: 9996.8043, KLD: 4055.9009
+Pred Loss: 2558.2850, Direct: 19297.6482
+R^2(train-CVAE): 0.9094, R^2(train-Pred): 0.8443
+R^2(test-CVAE): 0.9115, R^2(test-Pred): 0.7556
+LR: 0.000800
+Epoch [126/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63252.6791, CVAE: 10030.2190, KLD: 4050.2182
+Pred Loss: 2547.5916, Direct: 19274.4028
+R^2(train-CVAE): 0.9200, R^2(train-Pred): 0.8819
+R^2(test-CVAE): 0.9069, R^2(test-Pred): 0.7707
+LR: 0.000800
+Epoch [127/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62790.8355, CVAE: 9996.3535, KLD: 4061.6134
+Pred Loss: 2550.0833, Direct: 19100.3493
+R^2(train-CVAE): 0.9109, R^2(train-Pred): 0.8058
+R^2(test-CVAE): 0.8984, R^2(test-Pred): 0.7552
+LR: 0.000800
+Epoch [128/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63074.6331, CVAE: 9972.0381, KLD: 4053.8266
+Pred Loss: 2543.0799, Direct: 19228.7310
+R^2(train-CVAE): 0.9112, R^2(train-Pred): 0.8402
+R^2(test-CVAE): 0.9138, R^2(test-Pred): 0.7641
+LR: 0.000800
+Epoch [129/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62962.6100, CVAE: 9919.8333, KLD: 4059.6945
+Pred Loss: 2543.5513, Direct: 19203.8165
+R^2(train-CVAE): 0.9273, R^2(train-Pred): 0.8886
+R^2(test-CVAE): 0.8914, R^2(test-Pred): 0.7764
+LR: 0.000800
+Epoch [130/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62497.6259, CVAE: 9918.1962, KLD: 4044.8458
+Pred Loss: 2529.3485, Direct: 19028.7812
+R^2(train-CVAE): 0.8895, R^2(train-Pred): 0.8040
+R^2(test-CVAE): 0.9068, R^2(test-Pred): 0.7767
+LR: 0.000800
+Epoch [131/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 63032.2587, CVAE: 9923.6882, KLD: 4057.8802
+Pred Loss: 2524.3215, Direct: 19241.8895
+R^2(train-CVAE): 0.9361, R^2(train-Pred): 0.8591
+R^2(test-CVAE): 0.9010, R^2(test-Pred): 0.7667
+LR: 0.000800
+Epoch [132/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62267.2369, CVAE: 9862.3324, KLD: 4051.6459
+Pred Loss: 2517.6504, Direct: 18965.1741
+R^2(train-CVAE): 0.8407, R^2(train-Pred): 0.8229
+R^2(test-CVAE): 0.9129, R^2(test-Pred): 0.7682
+LR: 0.000800
+Epoch [133/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62619.2656, CVAE: 10035.1593, KLD: 4051.9213
+Pred Loss: 2535.7593, Direct: 19025.9563
+R^2(train-CVAE): 0.9256, R^2(train-Pred): 0.8626
+R^2(test-CVAE): 0.9090, R^2(test-Pred): 0.7606
+LR: 0.000800
+Epoch [134/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62252.6262, CVAE: 9918.3074, KLD: 4038.2744
+Pred Loss: 2503.5130, Direct: 18947.0268
+R^2(train-CVAE): 0.8215, R^2(train-Pred): 0.7036
+R^2(test-CVAE): 0.9043, R^2(test-Pred): 0.7666
+LR: 0.000800
+Epoch [135/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62273.2392, CVAE: 9910.4196, KLD: 4054.5698
+Pred Loss: 2520.4282, Direct: 18946.3227
+R^2(train-CVAE): 0.9336, R^2(train-Pred): 0.8662
+R^2(test-CVAE): 0.8961, R^2(test-Pred): 0.7733
+LR: 0.000800
+Epoch [136/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 62210.4044, CVAE: 9905.5171, KLD: 4028.6224
+Pred Loss: 2494.5417, Direct: 18941.7953
+R^2(train-CVAE): 0.9181, R^2(train-Pred): 0.8414
+R^2(test-CVAE): 0.9064, R^2(test-Pred): 0.7681
+LR: 0.000800
+Epoch [137/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61349.3046, CVAE: 9791.7819, KLD: 4039.3928
+Pred Loss: 2487.5686, Direct: 18645.7407
+R^2(train-CVAE): 0.9282, R^2(train-Pred): 0.8789
+R^2(test-CVAE): 0.8976, R^2(test-Pred): 0.7746
+LR: 0.000800
+Epoch [138/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61799.8143, CVAE: 9793.7175, KLD: 4038.3685
+Pred Loss: 2472.6382, Direct: 18834.2516
+R^2(train-CVAE): 0.9242, R^2(train-Pred): 0.8737
+R^2(test-CVAE): 0.9156, R^2(test-Pred): 0.7672
+LR: 0.000800
+Epoch [139/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61125.2953, CVAE: 9768.9324, KLD: 4028.8234
+Pred Loss: 2473.9837, Direct: 18574.6962
+R^2(train-CVAE): 0.9246, R^2(train-Pred): 0.8615
+R^2(test-CVAE): 0.9034, R^2(test-Pred): 0.7824
+LR: 0.000800
+Epoch [140/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61663.8935, CVAE: 9902.2958, KLD: 4031.3252
+Pred Loss: 2472.1722, Direct: 18737.5767
+R^2(train-CVAE): 0.8998, R^2(train-Pred): 0.8468
+R^2(test-CVAE): 0.9100, R^2(test-Pred): 0.7624
+LR: 0.000800
+Epoch [141/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61513.2706, CVAE: 9894.0088, KLD: 4050.1664
+Pred Loss: 2482.1041, Direct: 18672.4222
+R^2(train-CVAE): 0.9180, R^2(train-Pred): 0.8337
+R^2(test-CVAE): 0.9150, R^2(test-Pred): 0.7813
+LR: 0.000800
+Epoch [142/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61118.9340, CVAE: 9859.9944, KLD: 4035.6395
+Pred Loss: 2477.4033, Direct: 18532.8573
+R^2(train-CVAE): 0.8788, R^2(train-Pred): 0.6237
+R^2(test-CVAE): 0.8993, R^2(test-Pred): 0.7832
+LR: 0.000800
+Epoch [143/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61202.2125, CVAE: 9820.5944, KLD: 4039.1437
+Pred Loss: 2469.7874, Direct: 18586.0776
+R^2(train-CVAE): 0.9062, R^2(train-Pred): 0.8278
+R^2(test-CVAE): 0.9187, R^2(test-Pred): 0.7640
+LR: 0.000800
+Epoch [144/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 61617.9443, CVAE: 9803.4949, KLD: 4053.7175
+Pred Loss: 2488.3521, Direct: 18746.3223
+R^2(train-CVAE): 0.8997, R^2(train-Pred): 0.8215
+R^2(test-CVAE): 0.9083, R^2(test-Pred): 0.7822
+LR: 0.000800
+Epoch [145/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60864.3601, CVAE: 9817.6543, KLD: 4046.8083
+Pred Loss: 2483.2967, Direct: 18443.0873
+R^2(train-CVAE): 0.9187, R^2(train-Pred): 0.8458
+R^2(test-CVAE): 0.9032, R^2(test-Pred): 0.7637
+LR: 0.000800
+Epoch [146/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60568.6353, CVAE: 9730.2619, KLD: 4031.1464
+Pred Loss: 2457.1984, Direct: 18377.2929
+R^2(train-CVAE): 0.9107, R^2(train-Pred): 0.8507
+R^2(test-CVAE): 0.9204, R^2(test-Pred): 0.7764
+LR: 0.000800
+Epoch [147/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60677.1699, CVAE: 9749.3161, KLD: 4040.2699
+Pred Loss: 2464.9029, Direct: 18407.3674
+R^2(train-CVAE): 0.8814, R^2(train-Pred): 0.7956
+R^2(test-CVAE): 0.9153, R^2(test-Pred): 0.7823
+LR: 0.000800
+Epoch [148/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60375.8286, CVAE: 9626.7859, KLD: 4050.4891
+Pred Loss: 2462.0954, Direct: 18336.3011
+R^2(train-CVAE): 0.9292, R^2(train-Pred): 0.8740
+R^2(test-CVAE): 0.8993, R^2(test-Pred): 0.7858
+LR: 0.000800
+Epoch [149/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60630.1512, CVAE: 9786.6376, KLD: 4041.8914
+Pred Loss: 2463.7612, Direct: 18374.1217
+R^2(train-CVAE): 0.8729, R^2(train-Pred): 0.7344
+R^2(test-CVAE): 0.8929, R^2(test-Pred): 0.7689
+LR: 0.000800
+Epoch [150/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59976.0637, CVAE: 9694.7368, KLD: 4036.6458
+Pred Loss: 2455.8508, Direct: 18154.6227
+R^2(train-CVAE): 0.9209, R^2(train-Pred): 0.8737
+R^2(test-CVAE): 0.9132, R^2(test-Pred): 0.7684
+LR: 0.000800
+Epoch [151/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59998.4319, CVAE: 9697.3108, KLD: 4023.6959
+Pred Loss: 2420.1646, Direct: 18185.5064
+R^2(train-CVAE): 0.9047, R^2(train-Pred): 0.8230
+R^2(test-CVAE): 0.9109, R^2(test-Pred): 0.7814
+LR: 0.000800
+Epoch [152/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60221.5779, CVAE: 9726.0502, KLD: 4027.3754
+Pred Loss: 2427.3034, Direct: 18258.5440
+R^2(train-CVAE): 0.8860, R^2(train-Pred): 0.8213
+R^2(test-CVAE): 0.9099, R^2(test-Pred): 0.7768
+LR: 0.000800
+Epoch [153/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59793.4633, CVAE: 9672.7175, KLD: 4019.0493
+Pred Loss: 2410.2217, Direct: 18119.8794
+R^2(train-CVAE): 0.9219, R^2(train-Pred): 0.8219
+R^2(test-CVAE): 0.9077, R^2(test-Pred): 0.7848
+LR: 0.000800
+Epoch [154/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59724.5543, CVAE: 9625.2234, KLD: 4016.4018
+Pred Loss: 2396.8330, Direct: 18119.6644
+R^2(train-CVAE): 0.9228, R^2(train-Pred): 0.8352
+R^2(test-CVAE): 0.9109, R^2(test-Pred): 0.7797
+LR: 0.000800
+Epoch [155/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59653.6387, CVAE: 9609.2897, KLD: 4033.2920
+Pred Loss: 2426.0458, Direct: 18078.1170
+R^2(train-CVAE): 0.9142, R^2(train-Pred): 0.8506
+R^2(test-CVAE): 0.9163, R^2(test-Pred): 0.7814
+LR: 0.000800
+Epoch [156/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59888.0520, CVAE: 9643.7673, KLD: 4018.6624
+Pred Loss: 2411.0152, Direct: 18168.8653
+R^2(train-CVAE): 0.9033, R^2(train-Pred): 0.8389
+R^2(test-CVAE): 0.9150, R^2(test-Pred): 0.7779
+LR: 0.000800
+Epoch [157/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59849.9251, CVAE: 9689.3164, KLD: 4012.0959
+Pred Loss: 2408.8224, Direct: 18137.4985
+R^2(train-CVAE): 0.9174, R^2(train-Pred): 0.8568
+R^2(test-CVAE): 0.9131, R^2(test-Pred): 0.7712
+LR: 0.000800
+Epoch [158/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59052.7456, CVAE: 9564.3007, KLD: 4011.2428
+Pred Loss: 2398.7094, Direct: 17874.8031
+R^2(train-CVAE): 0.9078, R^2(train-Pred): 0.8004
+R^2(test-CVAE): 0.8967, R^2(test-Pred): 0.7707
+LR: 0.000800
+Epoch [159/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59490.3457, CVAE: 9665.0559, KLD: 4027.8715
+Pred Loss: 2402.0218, Direct: 18005.5583
+R^2(train-CVAE): 0.9099, R^2(train-Pred): 0.8575
+R^2(test-CVAE): 0.8989, R^2(test-Pred): 0.7726
+LR: 0.000800
+Epoch [160/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 60039.7954, CVAE: 9647.7318, KLD: 4009.9576
+Pred Loss: 2410.9668, Direct: 18229.0504
+R^2(train-CVAE): 0.9091, R^2(train-Pred): 0.7932
+R^2(test-CVAE): 0.9091, R^2(test-Pred): 0.7706
+LR: 0.000800
+Epoch [161/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58582.5025, CVAE: 9490.5835, KLD: 4020.4388
+Pred Loss: 2400.5510, Direct: 17713.9844
+R^2(train-CVAE): 0.9348, R^2(train-Pred): 0.8892
+R^2(test-CVAE): 0.9097, R^2(test-Pred): 0.7815
+LR: 0.000800
+Epoch [162/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58887.3658, CVAE: 9591.6716, KLD: 4010.3134
+Pred Loss: 2382.0853, Direct: 17807.7889
+R^2(train-CVAE): 0.9187, R^2(train-Pred): 0.8375
+R^2(test-CVAE): 0.8967, R^2(test-Pred): 0.7766
+LR: 0.000800
+Epoch [163/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59030.5589, CVAE: 9602.1935, KLD: 4021.8347
+Pred Loss: 2386.3916, Direct: 17856.8911
+R^2(train-CVAE): 0.9034, R^2(train-Pred): 0.8184
+R^2(test-CVAE): 0.9083, R^2(test-Pred): 0.7833
+LR: 0.000800
+Epoch [164/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58662.3783, CVAE: 9504.1908, KLD: 4005.0773
+Pred Loss: 2380.1231, Direct: 17754.5916
+R^2(train-CVAE): 0.9316, R^2(train-Pred): 0.8775
+R^2(test-CVAE): 0.9079, R^2(test-Pred): 0.7798
+LR: 0.000800
+Epoch [165/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58177.1029, CVAE: 9435.2657, KLD: 3995.6813
+Pred Loss: 2370.6862, Direct: 17594.8415
+R^2(train-CVAE): 0.9188, R^2(train-Pred): 0.8710
+R^2(test-CVAE): 0.9156, R^2(test-Pred): 0.7833
+LR: 0.000800
+Epoch [166/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58500.1339, CVAE: 9478.1845, KLD: 4000.8585
+Pred Loss: 2373.0779, Direct: 17704.8301
+R^2(train-CVAE): 0.9113, R^2(train-Pred): 0.8279
+R^2(test-CVAE): 0.9037, R^2(test-Pred): 0.7652
+LR: 0.000800
+Epoch [167/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 59089.2376, CVAE: 9601.6714, KLD: 4013.3690
+Pred Loss: 2378.8651, Direct: 17886.1031
+R^2(train-CVAE): 0.9135, R^2(train-Pred): 0.8518
+R^2(test-CVAE): 0.9150, R^2(test-Pred): 0.7951
+LR: 0.000800
+Epoch [168/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58208.1108, CVAE: 9496.5058, KLD: 4013.7658
+Pred Loss: 2371.8668, Direct: 17579.8699
+R^2(train-CVAE): 0.8935, R^2(train-Pred): 0.8406
+R^2(test-CVAE): 0.9117, R^2(test-Pred): 0.7830
+LR: 0.000800
+Epoch [169/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58443.0317, CVAE: 9474.7321, KLD: 3994.6232
+Pred Loss: 2350.3873, Direct: 17697.7327
+R^2(train-CVAE): 0.9148, R^2(train-Pred): 0.8851
+R^2(test-CVAE): 0.8986, R^2(test-Pred): 0.7693
+LR: 0.000800
+Epoch [170/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 58146.9011, CVAE: 9463.0706, KLD: 3991.4808
+Pred Loss: 2348.5804, Direct: 17585.4062
+R^2(train-CVAE): 0.9051, R^2(train-Pred): 0.8220
+R^2(test-CVAE): 0.8931, R^2(test-Pred): 0.7687
+LR: 0.000800
+Epoch [171/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57975.9546, CVAE: 9437.9407, KLD: 3999.5473
+Pred Loss: 2359.8640, Direct: 17519.3415
+R^2(train-CVAE): 0.9356, R^2(train-Pred): 0.8516
+R^2(test-CVAE): 0.9177, R^2(test-Pred): 0.7830
+LR: 0.000800
+Epoch [172/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57977.1093, CVAE: 9460.3877, KLD: 3997.6605
+Pred Loss: 2351.9132, Direct: 17515.8215
+R^2(train-CVAE): 0.9220, R^2(train-Pred): 0.8778
+R^2(test-CVAE): 0.8945, R^2(test-Pred): 0.7821
+LR: 0.000800
+Epoch [173/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57315.3253, CVAE: 9349.5619, KLD: 3987.6130
+Pred Loss: 2336.7644, Direct: 17305.7331
+R^2(train-CVAE): 0.9239, R^2(train-Pred): 0.8366
+R^2(test-CVAE): 0.9158, R^2(test-Pred): 0.7927
+LR: 0.000800
+Epoch [174/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57682.5961, CVAE: 9454.5044, KLD: 3995.4273
+Pred Loss: 2339.6288, Direct: 17408.0082
+R^2(train-CVAE): 0.9274, R^2(train-Pred): 0.8297
+R^2(test-CVAE): 0.9098, R^2(test-Pred): 0.7796
+LR: 0.000800
+Epoch [175/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57331.5756, CVAE: 9386.7514, KLD: 4003.9294
+Pred Loss: 2334.2777, Direct: 17296.8915
+R^2(train-CVAE): 0.9175, R^2(train-Pred): 0.8284
+R^2(test-CVAE): 0.9159, R^2(test-Pred): 0.7799
+LR: 0.000800
+Epoch [176/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57815.6459, CVAE: 9450.7565, KLD: 3979.3424
+Pred Loss: 2333.6071, Direct: 17468.2705
+R^2(train-CVAE): 0.9087, R^2(train-Pred): 0.8635
+R^2(test-CVAE): 0.9208, R^2(test-Pred): 0.7789
+LR: 0.000800
+Epoch [177/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57499.7048, CVAE: 9417.3458, KLD: 3986.3563
+Pred Loss: 2323.6574, Direct: 17360.3864
+R^2(train-CVAE): 0.9221, R^2(train-Pred): 0.8591
+R^2(test-CVAE): 0.9200, R^2(test-Pred): 0.7929
+LR: 0.000800
+Epoch [178/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57246.2849, CVAE: 9390.5905, KLD: 3984.5156
+Pred Loss: 2324.7880, Direct: 17269.2631
+R^2(train-CVAE): 0.9369, R^2(train-Pred): 0.8942
+R^2(test-CVAE): 0.9061, R^2(test-Pred): 0.7772
+LR: 0.000800
+Epoch [179/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57183.8959, CVAE: 9396.8177, KLD: 3997.6957
+Pred Loss: 2333.9208, Direct: 17234.7552
+R^2(train-CVAE): 0.9140, R^2(train-Pred): 0.8480
+R^2(test-CVAE): 0.9125, R^2(test-Pred): 0.7921
+LR: 0.000800
+Epoch [180/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57312.9595, CVAE: 9440.8036, KLD: 3992.9775
+Pred Loss: 2310.8610, Direct: 17283.1885
+R^2(train-CVAE): 0.9016, R^2(train-Pred): 0.8312
+R^2(test-CVAE): 0.9181, R^2(test-Pred): 0.7830
+LR: 0.000800
+Epoch [181/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57128.1353, CVAE: 9358.6055, KLD: 3983.9656
+Pred Loss: 2318.7705, Direct: 17238.4738
+R^2(train-CVAE): 0.9360, R^2(train-Pred): 0.8814
+R^2(test-CVAE): 0.9160, R^2(test-Pred): 0.7783
+LR: 0.000800
+Epoch [182/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57358.4165, CVAE: 9396.8362, KLD: 3986.5141
+Pred Loss: 2310.8847, Direct: 17319.7196
+R^2(train-CVAE): 0.9010, R^2(train-Pred): 0.8274
+R^2(test-CVAE): 0.9119, R^2(test-Pred): 0.7955
+LR: 0.000800
+Epoch [183/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57077.3602, CVAE: 9394.3748, KLD: 3980.9480
+Pred Loss: 2305.9835, Direct: 17211.8903
+R^2(train-CVAE): 0.8984, R^2(train-Pred): 0.8593
+R^2(test-CVAE): 0.9205, R^2(test-Pred): 0.7962
+LR: 0.000800
+Epoch [184/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56794.7470, CVAE: 9296.7740, KLD: 3994.4139
+Pred Loss: 2310.4306, Direct: 17133.6011
+R^2(train-CVAE): 0.9316, R^2(train-Pred): 0.8962
+R^2(test-CVAE): 0.9190, R^2(test-Pred): 0.7900
+LR: 0.000800
+Epoch [185/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 57007.8447, CVAE: 9320.2668, KLD: 3981.5778
+Pred Loss: 2302.8432, Direct: 17215.5359
+R^2(train-CVAE): 0.9076, R^2(train-Pred): 0.8330
+R^2(test-CVAE): 0.9170, R^2(test-Pred): 0.7865
+LR: 0.000800
+Epoch [186/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56480.8420, CVAE: 9245.6287, KLD: 3985.8173
+Pred Loss: 2301.8676, Direct: 17034.6667
+R^2(train-CVAE): 0.8941, R^2(train-Pred): 0.8183
+R^2(test-CVAE): 0.9108, R^2(test-Pred): 0.7799
+LR: 0.000800
+Epoch [187/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56632.4382, CVAE: 9285.0461, KLD: 4013.3489
+Pred Loss: 2332.3485, Direct: 17057.9458
+R^2(train-CVAE): 0.9166, R^2(train-Pred): 0.8553
+R^2(test-CVAE): 0.9127, R^2(test-Pred): 0.7934
+LR: 0.000800
+Epoch [188/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56111.8514, CVAE: 9213.7930, KLD: 3983.9990
+Pred Loss: 2293.3385, Direct: 16905.1402
+R^2(train-CVAE): 0.8698, R^2(train-Pred): 0.8047
+R^2(test-CVAE): 0.9109, R^2(test-Pred): 0.7943
+LR: 0.000800
+Epoch [189/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56644.9061, CVAE: 9257.4146, KLD: 3986.1985
+Pred Loss: 2301.1386, Direct: 17095.9696
+R^2(train-CVAE): 0.9418, R^2(train-Pred): 0.9086
+R^2(test-CVAE): 0.9131, R^2(test-Pred): 0.7838
+LR: 0.000800
+Epoch [190/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56080.7506, CVAE: 9231.0197, KLD: 3961.8037
+Pred Loss: 2261.7546, Direct: 16907.4233
+R^2(train-CVAE): 0.9178, R^2(train-Pred): 0.8459
+R^2(test-CVAE): 0.8996, R^2(test-Pred): 0.7829
+LR: 0.000800
+Epoch [191/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56111.8145, CVAE: 9258.4253, KLD: 3974.4767
+Pred Loss: 2278.6273, Direct: 16897.2422
+R^2(train-CVAE): 0.8656, R^2(train-Pred): 0.7897
+R^2(test-CVAE): 0.9256, R^2(test-Pred): 0.7862
+LR: 0.000800
+Epoch [192/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56064.8542, CVAE: 9201.1037, KLD: 3984.7194
+Pred Loss: 2294.6200, Direct: 16890.5618
+R^2(train-CVAE): 0.9239, R^2(train-Pred): 0.8755
+R^2(test-CVAE): 0.9057, R^2(test-Pred): 0.7849
+LR: 0.000800
+Epoch [193/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56183.2294, CVAE: 9348.8604, KLD: 3977.3327
+Pred Loss: 2281.5436, Direct: 16887.5416
+R^2(train-CVAE): 0.8960, R^2(train-Pred): 0.8515
+R^2(test-CVAE): 0.9159, R^2(test-Pred): 0.7884
+LR: 0.000800
+Epoch [194/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55432.5845, CVAE: 9154.0172, KLD: 3980.0756
+Pred Loss: 2264.9451, Direct: 16674.8508
+R^2(train-CVAE): 0.9000, R^2(train-Pred): 0.8607
+R^2(test-CVAE): 0.9021, R^2(test-Pred): 0.7752
+LR: 0.000800
+Epoch [195/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56356.9520, CVAE: 9237.8701, KLD: 3979.6219
+Pred Loss: 2265.6590, Direct: 17010.6827
+R^2(train-CVAE): 0.8872, R^2(train-Pred): 0.7259
+R^2(test-CVAE): 0.8940, R^2(test-Pred): 0.7796
+LR: 0.000800
+Epoch [196/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 56306.9662, CVAE: 9269.6519, KLD: 3984.8767
+Pred Loss: 2288.1427, Direct: 16963.8548
+R^2(train-CVAE): 0.9170, R^2(train-Pred): 0.8593
+R^2(test-CVAE): 0.9139, R^2(test-Pred): 0.7852
+LR: 0.000800
+Epoch [197/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55972.4688, CVAE: 9291.5729, KLD: 3966.4487
+Pred Loss: 2254.7220, Direct: 16843.5514
+R^2(train-CVAE): 0.9264, R^2(train-Pred): 0.8321
+R^2(test-CVAE): 0.9164, R^2(test-Pred): 0.7941
+LR: 0.000800
+Epoch [198/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55948.1840, CVAE: 9218.0803, KLD: 3992.6328
+Pred Loss: 2285.7682, Direct: 16841.4647
+R^2(train-CVAE): 0.9360, R^2(train-Pred): 0.8915
+R^2(test-CVAE): 0.9171, R^2(test-Pred): 0.7843
+LR: 0.000800
+Epoch [199/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55838.6195, CVAE: 9253.8737, KLD: 3963.3276
+Pred Loss: 2242.7978, Direct: 16812.6204
+R^2(train-CVAE): 0.9142, R^2(train-Pred): 0.8565
+R^2(test-CVAE): 0.9112, R^2(test-Pred): 0.7850
+LR: 0.000800
+Epoch [200/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55546.3620, CVAE: 9159.5362, KLD: 3972.3764
+Pred Loss: 2262.2586, Direct: 16720.6899
+R^2(train-CVAE): 0.9152, R^2(train-Pred): 0.8697
+R^2(test-CVAE): 0.9144, R^2(test-Pred): 0.7935
+LR: 0.000800
+Epoch [201/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55765.7787, CVAE: 9190.6870, KLD: 3966.5023
+Pred Loss: 2241.2986, Direct: 16809.2773
+R^2(train-CVAE): 0.9171, R^2(train-Pred): 0.8142
+R^2(test-CVAE): 0.9147, R^2(test-Pred): 0.7820
+LR: 0.000800
+Epoch [202/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55529.3971, CVAE: 9238.2369, KLD: 3972.9597
+Pred Loss: 2246.8479, Direct: 16691.6002
+R^2(train-CVAE): 0.9240, R^2(train-Pred): 0.8537
+R^2(test-CVAE): 0.9045, R^2(test-Pred): 0.7871
+LR: 0.000800
+Epoch [203/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55619.2371, CVAE: 9256.2630, KLD: 3965.4382
+Pred Loss: 2241.6569, Direct: 16724.3430
+R^2(train-CVAE): 0.9047, R^2(train-Pred): 0.8316
+R^2(test-CVAE): 0.9163, R^2(test-Pred): 0.7922
+LR: 0.000800
+Epoch [204/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55134.9770, CVAE: 9166.5146, KLD: 3970.3282
+Pred Loss: 2243.5847, Direct: 16564.7947
+R^2(train-CVAE): 0.9203, R^2(train-Pred): 0.8800
+R^2(test-CVAE): 0.9212, R^2(test-Pred): 0.7852
+LR: 0.000800
+Epoch [205/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54909.2300, CVAE: 9066.7044, KLD: 3973.0231
+Pred Loss: 2236.3745, Direct: 16518.4228
+R^2(train-CVAE): 0.9337, R^2(train-Pred): 0.8789
+R^2(test-CVAE): 0.9036, R^2(test-Pred): 0.7718
+LR: 0.000800
+Epoch [206/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55929.9346, CVAE: 9201.2469, KLD: 3961.6077
+Pred Loss: 2233.9627, Direct: 16875.7045
+R^2(train-CVAE): 0.9071, R^2(train-Pred): 0.8361
+R^2(test-CVAE): 0.9214, R^2(test-Pred): 0.7918
+LR: 0.000800
+Epoch [207/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55039.8746, CVAE: 9166.8140, KLD: 3945.6887
+Pred Loss: 2223.8381, Direct: 16541.4388
+R^2(train-CVAE): 0.8736, R^2(train-Pred): 0.8382
+R^2(test-CVAE): 0.9180, R^2(test-Pred): 0.7870
+LR: 0.000800
+Epoch [208/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55592.9769, CVAE: 9181.2591, KLD: 3967.5620
+Pred Loss: 2250.0446, Direct: 16738.5529
+R^2(train-CVAE): 0.9252, R^2(train-Pred): 0.8619
+R^2(test-CVAE): 0.9238, R^2(test-Pred): 0.7925
+LR: 0.000800
+Epoch [209/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54656.4410, CVAE: 9140.2085, KLD: 3972.4764
+Pred Loss: 2225.9362, Direct: 16394.2340
+R^2(train-CVAE): 0.7787, R^2(train-Pred): 0.6058
+R^2(test-CVAE): 0.9055, R^2(test-Pred): 0.7929
+LR: 0.000800
+Epoch [210/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54866.0213, CVAE: 9190.8431, KLD: 3969.7499
+Pred Loss: 2217.2249, Direct: 16463.3663
+R^2(train-CVAE): 0.9310, R^2(train-Pred): 0.8844
+R^2(test-CVAE): 0.9094, R^2(test-Pred): 0.7995
+LR: 0.000800
+Epoch [211/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54639.5059, CVAE: 9065.2408, KLD: 3958.2898
+Pred Loss: 2206.4699, Direct: 16430.8293
+R^2(train-CVAE): 0.9225, R^2(train-Pred): 0.8795
+R^2(test-CVAE): 0.9044, R^2(test-Pred): 0.7638
+LR: 0.000800
+Epoch [212/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54659.6429, CVAE: 9077.8247, KLD: 3967.2770
+Pred Loss: 2214.0237, Direct: 16428.2398
+R^2(train-CVAE): 0.9168, R^2(train-Pred): 0.8342
+R^2(test-CVAE): 0.8976, R^2(test-Pred): 0.8025
+LR: 0.000800
+Epoch [213/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 55187.6527, CVAE: 9163.1861, KLD: 3963.1673
+Pred Loss: 2226.5051, Direct: 16598.3035
+R^2(train-CVAE): 0.9109, R^2(train-Pred): 0.8325
+R^2(test-CVAE): 0.9236, R^2(test-Pred): 0.7851
+LR: 0.000800
+Epoch [214/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54435.3072, CVAE: 9081.8694, KLD: 3960.4183
+Pred Loss: 2211.3859, Direct: 16339.2934
+R^2(train-CVAE): 0.9069, R^2(train-Pred): 0.8682
+R^2(test-CVAE): 0.8909, R^2(test-Pred): 0.7938
+LR: 0.000800
+Epoch [215/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54708.0625, CVAE: 9146.9283, KLD: 3962.3925
+Pred Loss: 2206.9741, Direct: 16424.7821
+R^2(train-CVAE): 0.9399, R^2(train-Pred): 0.8810
+R^2(test-CVAE): 0.9097, R^2(test-Pred): 0.7928
+LR: 0.000800
+Epoch [216/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54633.8549, CVAE: 9143.9838, KLD: 3965.2270
+Pred Loss: 2198.8854, Direct: 16400.7900
+R^2(train-CVAE): 0.9434, R^2(train-Pred): 0.8810
+R^2(test-CVAE): 0.9174, R^2(test-Pred): 0.7938
+LR: 0.000800
+Epoch [217/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54458.6698, CVAE: 9070.1914, KLD: 3963.8721
+Pred Loss: 2211.4425, Direct: 16352.8612
+R^2(train-CVAE): 0.9309, R^2(train-Pred): 0.8857
+R^2(test-CVAE): 0.9266, R^2(test-Pred): 0.7963
+LR: 0.000800
+Epoch [218/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54029.6291, CVAE: 9016.8434, KLD: 3954.7497
+Pred Loss: 2196.5769, Direct: 16212.5982
+R^2(train-CVAE): 0.9267, R^2(train-Pred): 0.8718
+R^2(test-CVAE): 0.9126, R^2(test-Pred): 0.7944
+LR: 0.000800
+Epoch [219/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53949.4589, CVAE: 9011.1235, KLD: 3963.8590
+Pred Loss: 2212.2231, Direct: 16172.3373
+R^2(train-CVAE): 0.8827, R^2(train-Pred): 0.8223
+R^2(test-CVAE): 0.9215, R^2(test-Pred): 0.7931
+LR: 0.000800
+Epoch [220/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54407.2384, CVAE: 9081.1458, KLD: 3963.7796
+Pred Loss: 2212.1573, Direct: 16327.4891
+R^2(train-CVAE): 0.9175, R^2(train-Pred): 0.8678
+R^2(test-CVAE): 0.9041, R^2(test-Pred): 0.7910
+LR: 0.000800
+Epoch [221/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54398.2753, CVAE: 9079.4873, KLD: 3962.1646
+Pred Loss: 2187.7919, Direct: 16339.3803
+R^2(train-CVAE): 0.9179, R^2(train-Pred): 0.8691
+R^2(test-CVAE): 0.9187, R^2(test-Pred): 0.7952
+LR: 0.000800
+Epoch [222/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54446.0638, CVAE: 9085.9566, KLD: 3953.6392
+Pred Loss: 2229.3917, Direct: 16331.9711
+R^2(train-CVAE): 0.9111, R^2(train-Pred): 0.8599
+R^2(test-CVAE): 0.9111, R^2(test-Pred): 0.7925
+LR: 0.000800
+Epoch [223/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54154.2674, CVAE: 9053.5389, KLD: 3959.6898
+Pred Loss: 2194.0128, Direct: 16248.7210
+R^2(train-CVAE): 0.9048, R^2(train-Pred): 0.8661
+R^2(test-CVAE): 0.9261, R^2(test-Pred): 0.7854
+LR: 0.000800
+Epoch [224/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53769.9508, CVAE: 8965.9961, KLD: 3948.2311
+Pred Loss: 2183.5445, Direct: 16137.6674
+R^2(train-CVAE): 0.9170, R^2(train-Pred): 0.8533
+R^2(test-CVAE): 0.9181, R^2(test-Pred): 0.7954
+LR: 0.000800
+Epoch [225/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54142.8945, CVAE: 9021.7064, KLD: 3950.4606
+Pred Loss: 2193.7233, Direct: 16258.1859
+R^2(train-CVAE): 0.8819, R^2(train-Pred): 0.8475
+R^2(test-CVAE): 0.9239, R^2(test-Pred): 0.8002
+LR: 0.000800
+Epoch [226/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53897.8790, CVAE: 8986.6258, KLD: 3946.0225
+Pred Loss: 2182.6883, Direct: 16181.3656
+R^2(train-CVAE): 0.9279, R^2(train-Pred): 0.8417
+R^2(test-CVAE): 0.9212, R^2(test-Pred): 0.8044
+LR: 0.000800
+Epoch [227/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53996.2849, CVAE: 9060.5667, KLD: 3949.6903
+Pred Loss: 2168.4494, Direct: 16199.2548
+R^2(train-CVAE): 0.7409, R^2(train-Pred): 0.6266
+R^2(test-CVAE): 0.9241, R^2(test-Pred): 0.7985
+LR: 0.000800
+Epoch [228/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53356.4153, CVAE: 8974.9281, KLD: 3938.6255
+Pred Loss: 2165.9585, Direct: 15980.3847
+R^2(train-CVAE): 0.9320, R^2(train-Pred): 0.8944
+R^2(test-CVAE): 0.9138, R^2(test-Pred): 0.8046
+LR: 0.000800
+Epoch [229/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53567.3069, CVAE: 9000.3010, KLD: 3959.7887
+Pred Loss: 2164.5239, Direct: 16052.9133
+R^2(train-CVAE): 0.9136, R^2(train-Pred): 0.8749
+R^2(test-CVAE): 0.9175, R^2(test-Pred): 0.7963
+LR: 0.000800
+Epoch [230/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53785.7770, CVAE: 9014.9962, KLD: 3950.6516
+Pred Loss: 2158.2171, Direct: 16139.3038
+R^2(train-CVAE): 0.9230, R^2(train-Pred): 0.8790
+R^2(test-CVAE): 0.9157, R^2(test-Pred): 0.7928
+LR: 0.000800
+Epoch [231/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53826.2030, CVAE: 8981.7953, KLD: 3944.4617
+Pred Loss: 2158.6285, Direct: 16169.2506
+R^2(train-CVAE): 0.9404, R^2(train-Pred): 0.8666
+R^2(test-CVAE): 0.9211, R^2(test-Pred): 0.8025
+LR: 0.000800
+Epoch [232/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53537.0352, CVAE: 8966.1951, KLD: 3946.6077
+Pred Loss: 2174.3199, Direct: 16050.1512
+R^2(train-CVAE): 0.9042, R^2(train-Pred): 0.8415
+R^2(test-CVAE): 0.9183, R^2(test-Pred): 0.8011
+LR: 0.000800
+Epoch [233/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53077.9255, CVAE: 8949.1009, KLD: 3930.2029
+Pred Loss: 2154.5236, Direct: 15887.1914
+R^2(train-CVAE): 0.9287, R^2(train-Pred): 0.8801
+R^2(test-CVAE): 0.9120, R^2(test-Pred): 0.7990
+LR: 0.000800
+Epoch [234/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53062.9609, CVAE: 8936.2846, KLD: 3941.4316
+Pred Loss: 2163.4901, Direct: 15879.6046
+R^2(train-CVAE): 0.9310, R^2(train-Pred): 0.8485
+R^2(test-CVAE): 0.9212, R^2(test-Pred): 0.7946
+LR: 0.000800
+Epoch [235/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53309.1878, CVAE: 8987.7611, KLD: 3929.1629
+Pred Loss: 2154.6009, Direct: 15964.3107
+R^2(train-CVAE): 0.9256, R^2(train-Pred): 0.8983
+R^2(test-CVAE): 0.9195, R^2(test-Pred): 0.8063
+LR: 0.000800
+Epoch [236/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 54361.5857, CVAE: 9081.8912, KLD: 3952.1127
+Pred Loss: 2183.2530, Direct: 16327.6725
+R^2(train-CVAE): 0.9316, R^2(train-Pred): 0.8862
+R^2(test-CVAE): 0.9178, R^2(test-Pred): 0.7916
+LR: 0.000800
+Epoch [237/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53305.6477, CVAE: 8937.1150, KLD: 3955.4412
+Pred Loss: 2163.6473, Direct: 15974.5718
+R^2(train-CVAE): 0.9142, R^2(train-Pred): 0.8703
+R^2(test-CVAE): 0.9297, R^2(test-Pred): 0.7944
+LR: 0.000800
+Epoch [238/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52722.7447, CVAE: 8898.8318, KLD: 3946.2743
+Pred Loss: 2146.4265, Direct: 15768.1565
+R^2(train-CVAE): 0.9093, R^2(train-Pred): 0.7459
+R^2(test-CVAE): 0.9193, R^2(test-Pred): 0.8041
+LR: 0.000800
+Epoch [239/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53296.8520, CVAE: 9017.6011, KLD: 3946.7046
+Pred Loss: 2155.7309, Direct: 15944.6573
+R^2(train-CVAE): 0.9403, R^2(train-Pred): 0.8841
+R^2(test-CVAE): 0.9234, R^2(test-Pred): 0.8041
+LR: 0.000800
+Epoch [240/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52860.8439, CVAE: 8977.2596, KLD: 3945.7441
+Pred Loss: 2149.2779, Direct: 15790.3777
+R^2(train-CVAE): 0.9117, R^2(train-Pred): 0.8457
+R^2(test-CVAE): 0.9255, R^2(test-Pred): 0.7964
+LR: 0.000800
+Epoch [241/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52755.9487, CVAE: 8942.6915, KLD: 3940.0117
+Pred Loss: 2139.4662, Direct: 15768.8217
+R^2(train-CVAE): 0.9128, R^2(train-Pred): 0.8718
+R^2(test-CVAE): 0.9224, R^2(test-Pred): 0.7916
+LR: 0.000800
+Epoch [242/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52591.5678, CVAE: 8875.6979, KLD: 3946.6453
+Pred Loss: 2146.8783, Direct: 15724.6235
+R^2(train-CVAE): 0.9250, R^2(train-Pred): 0.8602
+R^2(test-CVAE): 0.9102, R^2(test-Pred): 0.7839
+LR: 0.000800
+Epoch [243/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52299.5065, CVAE: 8843.8221, KLD: 3933.5352
+Pred Loss: 2131.2433, Direct: 15631.5036
+R^2(train-CVAE): 0.9321, R^2(train-Pred): 0.8264
+R^2(test-CVAE): 0.9148, R^2(test-Pred): 0.8017
+LR: 0.000800
+Epoch [244/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 53627.0347, CVAE: 9039.3830, KLD: 3937.7244
+Pred Loss: 2149.6270, Direct: 16072.7575
+R^2(train-CVAE): 0.9143, R^2(train-Pred): 0.8422
+R^2(test-CVAE): 0.9105, R^2(test-Pred): 0.7921
+LR: 0.000800
+Epoch [245/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52743.4224, CVAE: 8945.0565, KLD: 3939.3512
+Pred Loss: 2133.9503, Direct: 15766.2540
+R^2(train-CVAE): 0.9201, R^2(train-Pred): 0.8633
+R^2(test-CVAE): 0.9236, R^2(test-Pred): 0.7834
+LR: 0.000800
+Epoch [246/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52806.7097, CVAE: 8959.2878, KLD: 3935.2621
+Pred Loss: 2134.9293, Direct: 15785.7797
+R^2(train-CVAE): 0.9220, R^2(train-Pred): 0.8892
+R^2(test-CVAE): 0.9274, R^2(test-Pred): 0.7969
+LR: 0.000800
+Epoch [247/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52344.7112, CVAE: 8881.7146, KLD: 3929.0370
+Pred Loss: 2124.4757, Direct: 15639.0288
+R^2(train-CVAE): 0.9385, R^2(train-Pred): 0.8834
+R^2(test-CVAE): 0.9166, R^2(test-Pred): 0.8034
+LR: 0.000800
+Epoch [248/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52543.0417, CVAE: 8898.6058, KLD: 3915.9824
+Pred Loss: 2124.0208, Direct: 15713.4440
+R^2(train-CVAE): 0.9213, R^2(train-Pred): 0.8703
+R^2(test-CVAE): 0.9167, R^2(test-Pred): 0.8057
+LR: 0.000800
+Epoch [249/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52501.6795, CVAE: 8822.6156, KLD: 3942.4802
+Pred Loss: 2128.4071, Direct: 15721.4836
+R^2(train-CVAE): 0.9066, R^2(train-Pred): 0.8532
+R^2(test-CVAE): 0.9123, R^2(test-Pred): 0.8105
+LR: 0.000800
+Epoch [250/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52316.4325, CVAE: 8911.2704, KLD: 3928.3671
+Pred Loss: 2105.8436, Direct: 15627.1546
+R^2(train-CVAE): 0.9273, R^2(train-Pred): 0.8774
+R^2(test-CVAE): 0.9152, R^2(test-Pred): 0.7974
+LR: 0.000800
+Epoch [251/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52406.5581, CVAE: 8882.8235, KLD: 3942.4646
+Pred Loss: 2122.2317, Direct: 15663.0591
+R^2(train-CVAE): 0.9146, R^2(train-Pred): 0.8809
+R^2(test-CVAE): 0.9256, R^2(test-Pred): 0.7908
+LR: 0.000800
+Epoch [252/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52434.0094, CVAE: 8883.3511, KLD: 3924.9403
+Pred Loss: 2120.8393, Direct: 15676.7669
+R^2(train-CVAE): 0.9166, R^2(train-Pred): 0.8507
+R^2(test-CVAE): 0.9151, R^2(test-Pred): 0.7919
+LR: 0.000800
+Epoch [253/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51930.3621, CVAE: 8842.5063, KLD: 3939.5166
+Pred Loss: 2110.4564, Direct: 15496.1265
+R^2(train-CVAE): 0.9098, R^2(train-Pred): 0.8284
+R^2(test-CVAE): 0.9168, R^2(test-Pred): 0.8019
+LR: 0.000800
+Epoch [254/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52223.2040, CVAE: 8834.3069, KLD: 3944.5377
+Pred Loss: 2120.1385, Direct: 15610.1311
+R^2(train-CVAE): 0.9198, R^2(train-Pred): 0.8652
+R^2(test-CVAE): 0.9137, R^2(test-Pred): 0.7884
+LR: 0.000800
+Epoch [255/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52354.4836, CVAE: 8937.5807, KLD: 3928.7066
+Pred Loss: 2108.6154, Direct: 15630.1471
+R^2(train-CVAE): 0.8984, R^2(train-Pred): 0.8459
+R^2(test-CVAE): 0.9139, R^2(test-Pred): 0.7883
+LR: 0.000800
+Epoch [256/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52822.5598, CVAE: 8866.9960, KLD: 3933.5455
+Pred Loss: 2119.4222, Direct: 15838.5468
+R^2(train-CVAE): 0.9279, R^2(train-Pred): 0.8810
+R^2(test-CVAE): 0.9124, R^2(test-Pred): 0.8012
+LR: 0.000800
+Epoch [257/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51906.0353, CVAE: 8824.1993, KLD: 3934.1052
+Pred Loss: 2111.7892, Direct: 15493.5682
+R^2(train-CVAE): 0.9170, R^2(train-Pred): 0.8657
+R^2(test-CVAE): 0.9210, R^2(test-Pred): 0.8151
+LR: 0.000800
+Epoch [258/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51391.8771, CVAE: 8697.0621, KLD: 3920.8684
+Pred Loss: 2095.2162, Direct: 15350.2921
+R^2(train-CVAE): 0.9326, R^2(train-Pred): 0.8919
+R^2(test-CVAE): 0.9158, R^2(test-Pred): 0.7929
+LR: 0.000800
+Epoch [259/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52230.0919, CVAE: 8889.5962, KLD: 3930.5547
+Pred Loss: 2091.3297, Direct: 15609.7339
+R^2(train-CVAE): 0.9414, R^2(train-Pred): 0.8775
+R^2(test-CVAE): 0.9172, R^2(test-Pred): 0.8013
+LR: 0.000800
+Epoch [260/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52104.8323, CVAE: 8832.6943, KLD: 3930.4918
+Pred Loss: 2112.1150, Direct: 15569.9273
+R^2(train-CVAE): 0.9374, R^2(train-Pred): 0.8797
+R^2(test-CVAE): 0.9233, R^2(test-Pred): 0.7947
+LR: 0.000800
+Epoch [261/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52073.6344, CVAE: 8829.4434, KLD: 3927.3900
+Pred Loss: 2104.3858, Direct: 15563.7582
+R^2(train-CVAE): 0.8951, R^2(train-Pred): 0.6023
+R^2(test-CVAE): 0.9211, R^2(test-Pred): 0.8066
+LR: 0.000800
+Epoch [262/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52357.0579, CVAE: 8912.9962, KLD: 3933.0315
+Pred Loss: 2116.7348, Direct: 15635.6200
+R^2(train-CVAE): 0.9179, R^2(train-Pred): 0.8686
+R^2(test-CVAE): 0.9222, R^2(test-Pred): 0.7955
+LR: 0.000800
+Epoch [263/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 52368.1663, CVAE: 8901.7616, KLD: 3933.8946
+Pred Loss: 2106.1304, Direct: 15650.8164
+R^2(train-CVAE): 0.9135, R^2(train-Pred): 0.8916
+R^2(test-CVAE): 0.9257, R^2(test-Pred): 0.8090
+LR: 0.000800
+Epoch [264/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51435.6191, CVAE: 8803.2792, KLD: 3915.0670
+Pred Loss: 2102.5782, Direct: 15321.5810
+R^2(train-CVAE): 0.9321, R^2(train-Pred): 0.8953
+R^2(test-CVAE): 0.9197, R^2(test-Pred): 0.8051
+LR: 0.000800
+Epoch [265/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51948.9841, CVAE: 8859.3138, KLD: 3934.4228
+Pred Loss: 2090.5521, Direct: 15509.4061
+R^2(train-CVAE): 0.9263, R^2(train-Pred): 0.8958
+R^2(test-CVAE): 0.9277, R^2(test-Pred): 0.8032
+LR: 0.000800
+Epoch [266/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51904.6615, CVAE: 8897.9788, KLD: 3912.9032
+Pred Loss: 2083.1718, Direct: 15483.2216
+R^2(train-CVAE): 0.9202, R^2(train-Pred): 0.8749
+R^2(test-CVAE): 0.9233, R^2(test-Pred): 0.8001
+LR: 0.000800
+Epoch [267/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51317.5908, CVAE: 8678.2994, KLD: 3919.5476
+Pred Loss: 2078.9894, Direct: 15337.9772
+R^2(train-CVAE): 0.9214, R^2(train-Pred): 0.8854
+R^2(test-CVAE): 0.9224, R^2(test-Pred): 0.8123
+LR: 0.000800
+Epoch [268/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51503.3805, CVAE: 8726.2468, KLD: 3914.5188
+Pred Loss: 2083.0872, Direct: 15391.2589
+R^2(train-CVAE): 0.9463, R^2(train-Pred): 0.9130
+R^2(test-CVAE): 0.9195, R^2(test-Pred): 0.7987
+LR: 0.000800
+Epoch [269/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51535.0613, CVAE: 8785.6014, KLD: 3919.3700
+Pred Loss: 2084.9600, Direct: 15378.4836
+R^2(train-CVAE): 0.9264, R^2(train-Pred): 0.8761
+R^2(test-CVAE): 0.9071, R^2(test-Pred): 0.8140
+LR: 0.000800
+Epoch [270/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51181.5636, CVAE: 8725.4432, KLD: 3915.2878
+Pred Loss: 2079.9215, Direct: 15264.6607
+R^2(train-CVAE): 0.9146, R^2(train-Pred): 0.8572
+R^2(test-CVAE): 0.9238, R^2(test-Pred): 0.8080
+LR: 0.000800
+Epoch [271/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51194.4065, CVAE: 8757.8218, KLD: 3930.4287
+Pred Loss: 2089.2696, Direct: 15249.4206
+R^2(train-CVAE): 0.9309, R^2(train-Pred): 0.8767
+R^2(test-CVAE): 0.9119, R^2(test-Pred): 0.7947
+LR: 0.000800
+Epoch [272/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50938.8700, CVAE: 8734.2806, KLD: 3909.0230
+Pred Loss: 2076.4872, Direct: 15166.8607
+R^2(train-CVAE): 0.9154, R^2(train-Pred): 0.8751
+R^2(test-CVAE): 0.9091, R^2(test-Pred): 0.8150
+LR: 0.000800
+Epoch [273/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50614.2684, CVAE: 8655.0184, KLD: 3926.4756
+Pred Loss: 2064.9585, Direct: 15073.5478
+R^2(train-CVAE): 0.9186, R^2(train-Pred): 0.8959
+R^2(test-CVAE): 0.9243, R^2(test-Pred): 0.8101
+LR: 0.000800
+Epoch [274/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51692.6737, CVAE: 8784.2700, KLD: 3921.5241
+Pred Loss: 2068.2417, Direct: 15451.8334
+R^2(train-CVAE): 0.9324, R^2(train-Pred): 0.9097
+R^2(test-CVAE): 0.9228, R^2(test-Pred): 0.8016
+LR: 0.000800
+Epoch [275/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51145.0911, CVAE: 8740.6062, KLD: 3922.0175
+Pred Loss: 2075.4161, Direct: 15245.9022
+R^2(train-CVAE): 0.9181, R^2(train-Pred): 0.8881
+R^2(test-CVAE): 0.9111, R^2(test-Pred): 0.8060
+LR: 0.000800
+Epoch [276/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51402.7157, CVAE: 8783.5495, KLD: 3917.4766
+Pred Loss: 2064.8588, Direct: 15338.6540
+R^2(train-CVAE): 0.9118, R^2(train-Pred): 0.8411
+R^2(test-CVAE): 0.9194, R^2(test-Pred): 0.8100
+LR: 0.000800
+Epoch [277/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50611.0857, CVAE: 8689.0736, KLD: 3911.7271
+Pred Loss: 2058.8075, Direct: 15064.1130
+R^2(train-CVAE): 0.9264, R^2(train-Pred): 0.8761
+R^2(test-CVAE): 0.9296, R^2(test-Pred): 0.8086
+LR: 0.000800
+Epoch [278/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 51272.3689, CVAE: 8714.9509, KLD: 3926.1653
+Pred Loss: 2063.4597, Direct: 15313.7516
+R^2(train-CVAE): 0.9253, R^2(train-Pred): 0.8987
+R^2(test-CVAE): 0.9262, R^2(test-Pred): 0.8010
+LR: 0.000800
+Epoch [279/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50936.6514, CVAE: 8726.2674, KLD: 3905.0630
+Pred Loss: 2046.4253, Direct: 15187.6908
+R^2(train-CVAE): 0.9126, R^2(train-Pred): 0.6659
+R^2(test-CVAE): 0.9110, R^2(test-Pred): 0.8030
+LR: 0.000800
+Epoch [280/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50684.2474, CVAE: 8705.8984, KLD: 3901.9507
+Pred Loss: 2054.0943, Direct: 15090.6489
+R^2(train-CVAE): 0.9067, R^2(train-Pred): 0.8540
+R^2(test-CVAE): 0.9162, R^2(test-Pred): 0.8042
+LR: 0.000800
+Epoch [281/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50968.8667, CVAE: 8711.4146, KLD: 3905.2703
+Pred Loss: 2053.6974, Direct: 15202.1300
+R^2(train-CVAE): 0.9162, R^2(train-Pred): 0.8791
+R^2(test-CVAE): 0.9052, R^2(test-Pred): 0.8024
+LR: 0.000800
+Epoch [282/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50745.2146, CVAE: 8714.1619, KLD: 3914.5240
+Pred Loss: 2060.0710, Direct: 15106.6355
+R^2(train-CVAE): 0.8943, R^2(train-Pred): 0.8311
+R^2(test-CVAE): 0.9050, R^2(test-Pred): 0.7970
+LR: 0.000800
+Epoch [283/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50785.7057, CVAE: 8688.9186, KLD: 3907.9791
+Pred Loss: 2042.2888, Direct: 15144.3840
+R^2(train-CVAE): 0.9151, R^2(train-Pred): 0.8714
+R^2(test-CVAE): 0.9169, R^2(test-Pred): 0.8138
+LR: 0.000800
+Epoch [284/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50929.4191, CVAE: 8719.7731, KLD: 3906.3088
+Pred Loss: 2052.6401, Direct: 15183.5172
+R^2(train-CVAE): 0.9237, R^2(train-Pred): 0.8546
+R^2(test-CVAE): 0.9099, R^2(test-Pred): 0.8050
+LR: 0.000800
+Epoch [285/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50950.7005, CVAE: 8667.3596, KLD: 3914.2763
+Pred Loss: 2061.3722, Direct: 15206.7998
+R^2(train-CVAE): 0.9195, R^2(train-Pred): 0.8617
+R^2(test-CVAE): 0.9238, R^2(test-Pred): 0.7986
+LR: 0.000800
+Epoch [286/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50374.2734, CVAE: 8643.5441, KLD: 3911.8772
+Pred Loss: 2056.8873, Direct: 14988.7340
+R^2(train-CVAE): 0.9195, R^2(train-Pred): 0.8892
+R^2(test-CVAE): 0.9197, R^2(test-Pred): 0.8140
+LR: 0.000800
+Epoch [287/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50667.0979, CVAE: 8694.1548, KLD: 3900.3767
+Pred Loss: 2050.2894, Direct: 15090.9584
+R^2(train-CVAE): 0.9190, R^2(train-Pred): 0.8740
+R^2(test-CVAE): 0.9234, R^2(test-Pred): 0.8160
+LR: 0.000800
+Epoch [288/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50249.6176, CVAE: 8648.1196, KLD: 3902.1764
+Pred Loss: 2031.0011, Direct: 14953.7373
+R^2(train-CVAE): 0.9389, R^2(train-Pred): 0.9093
+R^2(test-CVAE): 0.9262, R^2(test-Pred): 0.8102
+LR: 0.000800
+Epoch [289/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50286.8343, CVAE: 8611.9445, KLD: 3911.0948
+Pred Loss: 2047.2389, Direct: 14972.2812
+R^2(train-CVAE): 0.9044, R^2(train-Pred): 0.8248
+R^2(test-CVAE): 0.9259, R^2(test-Pred): 0.8052
+LR: 0.000800
+Epoch [290/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50958.5786, CVAE: 8738.4877, KLD: 3913.4288
+Pred Loss: 2041.9629, Direct: 15193.2473
+R^2(train-CVAE): 0.9446, R^2(train-Pred): 0.9076
+R^2(test-CVAE): 0.9214, R^2(test-Pred): 0.8169
+LR: 0.000800
+Epoch [291/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 49797.3628, CVAE: 8552.3683, KLD: 3912.0787
+Pred Loss: 2037.1693, Direct: 14806.2466
+R^2(train-CVAE): 0.9135, R^2(train-Pred): 0.8670
+R^2(test-CVAE): 0.9309, R^2(test-Pred): 0.8204
+LR: 0.000800
+Epoch [292/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50237.0503, CVAE: 8602.5269, KLD: 3904.5716
+Pred Loss: 2022.8674, Direct: 14971.5403
+R^2(train-CVAE): 0.9223, R^2(train-Pred): 0.8550
+R^2(test-CVAE): 0.9253, R^2(test-Pred): 0.8056
+LR: 0.000800
+Epoch [293/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50108.7467, CVAE: 8618.7655, KLD: 3912.8979
+Pred Loss: 2039.9690, Direct: 14902.4633
+R^2(train-CVAE): 0.9295, R^2(train-Pred): 0.8571
+R^2(test-CVAE): 0.9297, R^2(test-Pred): 0.8072
+LR: 0.000800
+Epoch [294/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50252.8016, CVAE: 8628.5413, KLD: 3906.5551
+Pred Loss: 2037.4362, Direct: 14958.4558
+R^2(train-CVAE): 0.9331, R^2(train-Pred): 0.9050
+R^2(test-CVAE): 0.9149, R^2(test-Pred): 0.8084
+LR: 0.000800
+Epoch [295/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50543.4323, CVAE: 8718.5780, KLD: 3905.1305
+Pred Loss: 2024.4899, Direct: 15046.6321
+R^2(train-CVAE): 0.9467, R^2(train-Pred): 0.9073
+R^2(test-CVAE): 0.9112, R^2(test-Pred): 0.8059
+LR: 0.000800
+Epoch [296/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50519.8006, CVAE: 8674.9822, KLD: 3902.2153
+Pred Loss: 2034.3067, Direct: 15049.0775
+R^2(train-CVAE): 0.9414, R^2(train-Pred): 0.8816
+R^2(test-CVAE): 0.9180, R^2(test-Pred): 0.8116
+LR: 0.000800
+Epoch [297/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 50419.5315, CVAE: 8642.1068, KLD: 3912.9091
+Pred Loss: 2039.0596, Direct: 15017.9851
+R^2(train-CVAE): 0.9314, R^2(train-Pred): 0.9032
+R^2(test-CVAE): 0.9290, R^2(test-Pred): 0.8156
+LR: 0.000800
+Epoch [298/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 49947.4565, CVAE: 8563.9083, KLD: 3911.7242
+Pred Loss: 2030.2585, Direct: 14865.8573
+R^2(train-CVAE): 0.8970, R^2(train-Pred): 0.8229
+R^2(test-CVAE): 0.9182, R^2(test-Pred): 0.8174
+LR: 0.000800
+Epoch [299/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 49836.6001, CVAE: 8569.1714, KLD: 3903.8870
+Pred Loss: 2017.7217, Direct: 14827.8720
+R^2(train-CVAE): 0.9358, R^2(train-Pred): 0.9023
+R^2(test-CVAE): 0.9196, R^2(test-Pred): 0.8151
+LR: 0.000800
+Epoch [300/300], Beta: 0.30, PW: 1.50, DRW: 2.50
+Train Loss: 49763.8087, CVAE: 8536.4380, KLD: 3899.8242
+Pred Loss: 2013.3108, Direct: 14814.9829
+R^2(train-CVAE): 0.9296, R^2(train-Pred): 0.8767
+R^2(test-CVAE): 0.9238, R^2(test-Pred): 0.8142
+LR: 0.000800
+Training completed.
+Saving latent space representation...
